@@ -8,9 +8,9 @@
 
 - Họ tên: Trần Đức Trung
 - MSSV: 2A202603938
-- Email trường (không bắt buộc, repo có thể để public): ____________________
-- Tên nhóm: ____________________
-- Link repo nhóm: ____________________
+- Email trường (không bắt buộc, repo có thể để public): 
+- Tên nhóm: AURA
+- Link repo nhóm:
 
 ---
 
