@@ -94,11 +94,12 @@ Ban đầu có thành viên muốn chọn Candidate #10 vì hứng thú với kh
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | PM, Team Leader hoặc thành viên nhóm thường xuyên phải tham gia tổng hợp báo cáo công việc. | Value | 5 | 3 | Có |
-| 2 | Việc thu thập báo cáo từ nhiều nguồn hoặc báo cáo không thống nhất định dạng gây khó khăn cho quá trình tổng hợp. | Value | 5 | 3 | Có |
-| 3 | Các nhóm thường gặp tình trạng thiếu thông tin hoặc thành viên gửi báo cáo trễ. | Value | 5 | 3 | Có |
-| 4 | Việc tổng hợp báo cáo thủ công gây ảnh hưởng đáng kể đến công việc của người phụ trách. | Value | 5 | 3 | Có |
-| 5 | Người phụ trách có nhu cầu ưu tiên cải thiện công đoạn thu thập hoặc tổng hợp báo cáo vào file chung. | Value | 4 | 3 | Có |
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
@@ -106,24 +107,24 @@ Giả định nhóm kiểm chứng trong buổi này:
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Survey
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) |AI Engineer, các nhóm nhỏ tầm 5 người |
+| Câu nói đáng nhớ nhất (nguyên văn) |"Làm các báo cáo rất mất thời gian" |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Tháng trước, viết update tuần, mất khoảng 20 phút |
+| Hiện đang xử lý bằng cách nào (workaround)? |Copy báo cáo tháng trước rồi sửa |
+| Mất bao lâu, bao lần? |Update tuần khoảng 20 phút |
+| Insight / opportunity rút ra |Pain nằm ở phần nhận định, không phải phần lấy số |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+|Survey |8 |5/8 phải tổng hợp từ nhiều nguồn |3 /8 nói template là đủ |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
