@@ -23,8 +23,8 @@
 | 2 | Cần đọc, tổng hợp nhiều thông tin | Khi đánh giá mô hình AI sau nhiều lần huấn luyện, tôi muốn đối chiếu các chỉ số và cấu hình thí nghiệm, để biết phiên bản nào thực sự cải thiện kết quả. | Sinh viên và nhóm nghiên cứu | Mỗi tuần 1 lần, 30 phút để đối chiếu và so sánh. |
 | 3 | Pain từ người khác | Khi thực hiện bài tập lớn theo nhóm, tôi muốn các thành viên nắm rõ nhiệm vụ và thời hạn của mình, để hạn chế bỏ sót hoặc trùng lặp công việc. | Các thành viên nhóm làm bài tập lớn | Mỗi tuần 1 lần, 30 phút |
 | 4 | Cần đọc, tổng hợp nhiều thông tin | Khi ôn thi một môn có nhiều slide, giáo trình và bài tập, tôi muốn hệ thống kiến thức theo từng chủ đề, để không bỏ sót nội dung quan trọng. | Sinh viên đại học | Mỗi tháng 1 lần, mỗi môn 60 phút. |
-| 5 | Pain từ người khác | Khi nhóm chuẩn bị nộp bài tập lớn, tôi muốn kiểm tra báo cáo đã đáp ứng đủ yêu cầu của giảng viên, để tránh thiếu nội dung hoặc sai định dạng. | Các thành viên nhóm và người tổng hợp báo cáo | Mỗi tuần 1 lần, 30 phút. |
-
+| 5 | Pain từ người khác | Khi nhóm chuẩn bị nộp bài tập lớn hoặc báo cáo, tôi muốn kiểm tra báo cáo đã đáp ứng đủ yêu cầu của giảng viên, để tránh thiếu nội dung hoặc sai định dạng. | Các thành viên nhóm và người tổng hợp báo cáo | Mỗi lần 40 phút. |
+| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi tìm kiếm cơ hội thực tập, tôi muốn nhanh chóng so sánh yêu cầu tuyển dụng của nhiều công ty với kỹ năng hiện có, để biết mình cần bổ sung kiến thức gì trước khi ứng tuyển. | Người ứng tuyển | Mỗi tuần 2 lần, khoảng 45 phút/lần để đọc và so sánh các tin tuyển dụng. |
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
@@ -72,7 +72,7 @@ Tổng thời gian: khoảng 120 phút/bài
 | Quy trình hiện tại (3–7 bước) | 1. Tìm file kết quả các lần chạy. 2. Kiểm tra cấu hình thí nghiệm. 3. Ghi lại các chỉ số đánh giá. 4. Đối chiếu kết quả giữa các phiên bản. 5. Nhận xét và chọn phiên bản phù hợp. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến bước 4 tốn thời gian nhất vì phải so sánh nhiều chỉ số và cấu hình. |
 | Impact (nếu không giải thì sao) | Tốn thời gian, dễ nhầm lẫn giữa các phiên bản và khó xác định thay đổi nào thực sự cải thiện kết quả. |
-| Success metric (baseline → target) | Baseline: 20 phút/lần đối chiếu. Target đề xuất: 10 phút/lần; các chỉ số và cấu hình phải được đối chiếu đúng với file kết quả gốc. |
+| Success metric (baseline → target) | Baseline: 30 phút/lần đối chiếu. Target đề xuất: 10 phút/lần; các chỉ số và cấu hình phải được đối chiếu đúng với file kết quả gốc. |
 | Phương án không dùng AI | Chuẩn hóa tên file và ghi kết quả vào CSV hoặc Excel; dùng bảng tính hoặc Python để tự động tổng hợp và so sánh. |
 | Giả thuyết về AI (nếu có) | AI có thể hỗ trợ diễn giải chênh lệch các chỉ số và gợi ý điểm cần kiểm tra, không tự tạo hay thay đổi kết quả đo. |
 | Cảm nhận nhanh | Rule |
@@ -124,7 +124,9 @@ Tổng thời gian: khoảng 40 phút/lần
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Chưa có số liệu thời gian thực tế nên chưa thể khẳng định bottleneck và baseline của từng card. | __________ | __________ |
+| Card 1: Mục tiêu giảm từ 120 xuống 60 phút chưa đảm bảo người đọc vẫn hiểu đúng nội dung bài báo. | Đồng ý | Bổ sung tiêu chí đánh giá: phải xác định đúng bài toán, phương pháp và kết quả thực nghiệm khi đối chiếu với bài gốc, không chỉ đánh giá thời gian. |
+| Card 2: Việc so sánh các chỉ số có thể giải quyết bằng Excel hoặc Python, chưa cần sử dụng AI. | Đồng ý | Giữ mức can thiệp là Rule, ưu tiên dùng CSV, Excel hoặc Python để tự động tổng hợp; AI chỉ hỗ trợ diễn giải kết quả khi cần. |
+| Card 3: Giảm thời gian kiểm tra từ 40 xuống 20 phút có thể khiến nhóm bỏ sót lỗi trong báo cáo. | Đồng ý | Bổ sung tiêu chí không bỏ sót yêu cầu trong checklist; ưu tiên lập checklist trước và kiểm tra thủ công lại các nhận xét do AI đưa ra. |
 
 ---
 
