@@ -188,4 +188,11 @@ Nếu làm lại, tôi sẽ phản biện candidate #2 mạnh hơn ở feasibili
 
 ## 7. Tài liệu tham khảo
 
--
+- Group report `report/team/group_report.md` mục 3.3 (bảng research 6 công cụ).
+- Google Drive Search — https://support.google.com/drive/answer/2375114
+- Notion Wiki — https://www.notion.com/help/wikis-and-verified-pages
+- Gemini Notebook (NotebookLM) — https://support.google.com/gemininotebook/answer/16215270
+- Glean — https://www.glean.com
+- Slack Enterprise Search — https://slack.com/intl/zh-cn/features/enterprise-search
+- Conclude — https://conclude.app
+- Frameworks: Lean UX (Jeff Gothelf), Google PAIR, The Mom Test (Rob Fitzpatrick), Opportunity Solution Tree (Teresa Torres), Assumption Map (David Bland), Prediction Machines (Agrawal, Gans, Goldfarb), Building Effective Agents (Anthropic).
