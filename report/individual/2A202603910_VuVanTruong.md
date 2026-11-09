@@ -138,7 +138,7 @@ Quy trình nháp hiện tại:
 | Problem Statement | Rà soát PS v0; điền PS v1 trường AI intervention point, mức chọn, rủi do & người kiểm tra | `group_report.md` mục 5 và 7 |
 | Mức can thiệp AI | Điền ma trận, so sánh 4 mức, AI Canvas, 2 câu PAIR, PS v1, 5 tiêu chí eval | `group_report.md` mục 6.1–6.4 và 7 |
 | Quyết định | Tham gia chấm 4 rủi ro và kết luận Go (pilot nhỏ nhất) + ngưỡng dừng | `group_report.md` mục 8.1–8.2 |
-```
+
 
 
 ---
@@ -153,7 +153,7 @@ Quy trình nháp hiện tại:
 | CP5 Quy trình | Nhờ AI chuyển mô tả quy trình sang Mermaid và phản biện PS v0 | AI gợi ý thêm tiêu chí "không dùng nhầm bản cũ" vào metric | AI gộp bước 2–4 thành một bước, làm mất bottleneck tìm kiếm rải rác | Tôi tách lại các bước và giữ bottleneck 15 phút chờ người đã gửi; sửa metric theo phản biện nhưng giữ baseline 45 phút |
 | CP5–6 Problem Statement | Nhờ AI chỉ ra lỗ hổng PS v0 (metric chưa đo chất lượng, phụ thuộc gắn nhãn) | AI đặt câu hỏi đúng: "Success metric mới chỉ đo thời gian, chưa đo đúng bản mới nhất" | AI đề xuất thêm trường "AI confidence score" không cần thiết cho bài toán | Tôi thêm tiêu chí "không dùng nhầm bản cũ" và "100% kiểm tra nguồn", bỏ trường confidence |
 | CP6 Mức can thiệp / quyết định | AI hỗ trợ so sánh 4 mức và gợi ý eval criteria | AI gợi ý tiêu chí "khả năng quay về" (fallback) — tôi thấy rất hữu ích | AI ban đầu gợi ý chọn Agent vì "nghe ấn tượng hơn"; không giải thích vì sao Workflow không đủ | Tôi giữ Workflow, viết rõ lý do không chọn Agent (over-engineering, boundary AI chỉ đọc); thêm ngưỡng dừng đo được |
-```
+
 
 
 ---
@@ -181,7 +181,7 @@ Khó nhất là giữ Problem Statement không chứa giải pháp. Khi viết v
 Nếu làm lại, tôi sẽ phản biện candidate #2 mạnh hơn ở feasibility: mọi người có thật sự gắn nhãn tin nhắn/quyết định không, hay chỉ là kỳ vọng? Tôi cũng sẽ yêu cầu nhóm kiểm chứng baseline 45 phút bằng phỏng vấn trước khi viết metric, thay vì dùng số ước tính. Ngoài ra tôi sẽ phản biện candidate #13 (kiểm tra file nộp lab) kỹ hơn: nó bị loại vì Rule đã đủ, nhưng nếu đo tần suất "sát giờ nộp" thì impact có thể lớn hơn nhóm nghĩ. Cuối cùng, tôi sẽ viết reflection sớm hơn thay vì để trống đến cuối.
 
 **6.7. Hiểu bài:** Nhóm chọn bài toán thông tin, tài liệu và quyết định bị phân tán trên Zalo/Drive/Sheets trong nhóm đồ án sinh viên. Quy trình hiện tại mất 45 phút/lần tìm vì phải lục từng nơi và chờ người đã gửi trả lời. Metric muốn giảm xuống dưới 5 phút/lần và không dùng nhầm bản cũ. Boundary rõ: AI chỉ đọc, không sửa/xóa/gửi, không trả lời khi không có nguồn; người hỏi phải kiểm tra nguồn trước khi dùng (HITL). Nhóm chọn mức can thiệp Workflow: Rule gom link chạy nền + AI tìm kiếm ngữ nghĩa trả lời kèm nguồn, vì No AI phụ thuộc kỷ luật con người và Agent là over-engineering. Quyết định Go (pilot nhỏ nhất) với ngưỡng dừng: nếu sau 2 tuần thời gian tìm không xuống dưới 15 phút/lần hoặc hơn 50% câu hỏi AI không tìm được nguồn thì quay về cách cũ.
-```
+
 
 
 ---
