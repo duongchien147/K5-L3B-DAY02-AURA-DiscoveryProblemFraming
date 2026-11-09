@@ -145,36 +145,60 @@ Tổng hợp:
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
+HIỆN TẠI - 7 bước, khoảng 45 phút/lần (ước tính), 7/7 bước thủ công
 
+[1 Nhớ lại thông tin nằm ở đâu: 5'] → [2 Tìm trong kênh chat: 5']
+→ [3 Tìm trong nơi lưu file: 5'] → [4 Xem bảng task: 5']
+→ [5 Hỏi người đã gửi: 5'] → [6 Chờ người đó trả lời: 15'] ← BOTTLENECK
+→ [7 Kiểm tra đúng bản mới nhất rồi dùng: 5']
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Thành viên cần thông tin | Tài liệu hoặc quyết định cũ cần tìm | Phán đoán thông tin nằm ở đâu | 5' mỗi lần | Dựa vào trí nhớ |
+| 2 | Thành viên cần thông tin | Từ khóa | Tin nhắn liên quan, hoặc chưa thấy | 5' mỗi lần | Tìm trong kênh chat của nhóm |
+| 3 | Thành viên cần thông tin | Tên file, tên thư mục | File liên quan, hoặc chưa thấy | 5' mỗi lần | Tìm trong nơi lưu file của nhóm |
+| 4 | Thành viên cần thông tin | Bảng task | Người phụ trách hoặc link liên quan | 5' mỗi lần | |
+| 5 | Thành viên cần thông tin | Phần thông tin còn thiếu | Tin nhắn hỏi người đã gửi | 5' mỗi lần | Handoff sang người đã gửi |
+| 6 | Người đã gửi (người hỏi phải chờ) | Câu hỏi | Câu trả lời hoặc link | 15' mỗi lần | Phụ thuộc lúc người kia rảnh |
+| 7 | Thành viên cần thông tin | File hoặc quyết định tìm được | Bản đúng để dùng tiếp | 5' mỗi lần | Kết thúc quy trình |
 
-**Bottleneck chính:**
+*Số phút là ước tính từ một lần tìm lại thông tin gần nhất của một thành viên, chưa được kiểm chứng bằng phỏng vấn.*
+
+**Bottleneck chính:** Bước 6, chờ người đã gửi trả lời: 15 trong 45 phút, là bước dài nhất và người hỏi không kiểm soát được khi nào có câu trả lời. Các bước 2-4 cộng lại cũng mất 15 phút, vì phải tìm lần lượt từng nơi.
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
+TƯƠNG LAI - 3 bước, khoảng 5 phút/lần (kỳ vọng), 2/3 bước thủ công
 
+Chạy nền, mỗi khi có tài liệu hoặc quyết định mới:
+[Gom link tài liệu và tin nhắn được gắn nhãn quyết định về một bảng chung] ← RULE
+
+Khi cần tìm:
+[1 Gõ câu hỏi: 1'] ← CON NGƯỜI
+→ [2 Công cụ có sẵn (ví dụ Gemini Notebook) tìm trong bảng chung và tài liệu,
+   trả lời kèm nguồn: 1'] ← AI
+→ [3 Mở nguồn, kiểm tra đúng và là bản mới nhất: 3'] ← CON NGƯỜI (HITL)
+
+BOUNDARY: AI chỉ đọc, không sửa, xóa hay gửi tài liệu; không tự chốt quyết định;
+không trả lời khi không có nguồn; chỉ đọc những tài liệu nhóm đã đồng ý đưa vào.
+HITL: người hỏi phải mở nguồn và kiểm tra trước khi dùng cho quyết định hoặc bài nộp.
+PHƯƠNG ÁN QUAY VỀ: không có nguồn, nguồn sai hoặc AI ngừng hoạt động
+→ làm theo cách cũ: tìm từng nơi rồi hỏi người đã gửi.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 7 | 3 | Thêm 1 bước Rule chạy nền, không tốn thời gian của người hỏi |
+| Tổng thời gian | 45' | khoảng 5' | Nếu phải quay về cách cũ: khoảng 50' |
+| Số bước thủ công | 7/7 | 2/3 | Người hỏi vẫn đặt câu hỏi và kiểm tra nguồn |
+| Bottleneck chính | Chờ người đã gửi trả lời, 15' | Kiểm tra nguồn, 3' | Chấp nhận được vì đây là điểm kiểm soát chất lượng |
+| Rủi ro mới phát sinh | Không có | AI trả lời sai hoặc dẫn bản cũ; mọi người không gắn nhãn nên bảng chung thiếu thông tin; công cụ không đọc trực tiếp tin nhắn chat; nội dung của nhóm được đưa vào công cụ AI | Xử lý bằng boundary, bước kiểm tra nguồn và phương án quay về |
 
 ---
 
