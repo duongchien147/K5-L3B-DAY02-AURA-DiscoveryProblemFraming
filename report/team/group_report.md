@@ -208,16 +208,17 @@ PHƯƠNG ÁN QUAY VỀ: không có nguồn, nguồn sai hoặc AI ngừng hoạt
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên làm đồ án theo nhóm (nhóm 4-5 người, trao đổi qua Zalo, lưu file trên Google Drive và theo dõi việc trên Google Sheets). |
+| **Quy trình** | Khi cần làm tiếp hoặc viết báo cáo: nhớ lại nơi lưu -> tìm trong tin nhắn Zalo -> tìm trên Google Drive -> xem bảng việc trên Sheets -> nhắn hỏi người đã gửi -> chờ người đó trả lời -> kiểm tra bản mới nhất rồi dùng. |
+| **Bottleneck** | Bước 6: Chờ người đã gửi trả lời (chiếm 15 trong tổng số 45 phút) và các bước 2-4 phải lục tìm rải rác ở từng nơi (mất thêm 15 phút). |
+| **Impact** | Mỗi lần tìm lại tài liệu mất khoảng 45 phút; công việc bị gián đoạn vì phải chờ người khác rảnh; có nguy cơ lấy nhầm bản cũ dẫn đến làm sai hoặc phải sửa lại báo cáo. |
+| **Success Metric** (baseline → target, cách đo) | Thời gian tìm tài liệu giảm từ 45 phút xuống dưới 5 phút mỗi lần; không còn trường hợp dùng nhầm tài liệu cũ. Cách đo: các thành viên tự ghi lại thời gian và số lần phải hỏi người khác trong 2 tuần làm việc tiếp theo. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI chỉ đọc và trích xuất từ các tài liệu nhóm đã đưa vào, không tự ý sửa, xóa hay gửi tài liệu; không tự chốt quyết định; không trả lời khi thiếu nguồn trích dẫn. Người hỏi bắt buộc phải mở link nguồn để kiểm tra nội dung trước khi đưa vào bài làm. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- Phản biện: Success metric mới chỉ đo thời gian tìm kiếm, chưa đo xem tài liệu tìm ra có đúng bản mới nhất hay không; quy trình mới phụ thuộc nhiều vào việc mọi người có nhớ gắn nhãn tin nhắn để gom link hay không.
+- Nhóm đồng ý: Nhóm bổ sung tiêu chí không dùng nhầm bản cũ vào metric, đồng thời ở quy trình tương lai đã thêm bước người hỏi phải tự mở nguồn kiểm tra lại trước khi dùng.
 
 ---
 
