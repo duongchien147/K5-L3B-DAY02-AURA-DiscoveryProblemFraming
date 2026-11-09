@@ -20,7 +20,7 @@
 | # | Lăng kính | Job Story | Ai chịu ảnh hưởng? | Dấu hiệu thật |
 |---:|---|---|---|---|
 | 1 | Tốn thời gian | Khi đọc một bài báo khoa học bằng tiếng Anh, tôi muốn nhanh chóng xác định bài toán, phương pháp và kết quả chính, để chọn được tài liệu phù hợp cho đề tài nghiên cứu. | Sinh viên thực hiện nghiên cứu khoa học | Đọc 2 tiếng để hiểu quy trình họ thực hiện. |
-| 2 | Cần đọc, tổng hợp nhiều thông tin | Khi đánh giá mô hình AI sau nhiều lần huấn luyện, tôi muốn đối chiếu các chỉ số và cấu hình thí nghiệm, để biết phiên bản nào thực sự cải thiện kết quả. | Sinh viên và nhóm nghiên cứu | Mỗi tuần 1 lần, 20 phút để đối chiếu và so sánh. |
+| 2 | Cần đọc, tổng hợp nhiều thông tin | Khi đánh giá mô hình AI sau nhiều lần huấn luyện, tôi muốn đối chiếu các chỉ số và cấu hình thí nghiệm, để biết phiên bản nào thực sự cải thiện kết quả. | Sinh viên và nhóm nghiên cứu | Mỗi tuần 1 lần, 30 phút để đối chiếu và so sánh. |
 | 3 | Pain từ người khác | Khi thực hiện bài tập lớn theo nhóm, tôi muốn các thành viên nắm rõ nhiệm vụ và thời hạn của mình, để hạn chế bỏ sót hoặc trùng lặp công việc. | Các thành viên nhóm làm bài tập lớn | Mỗi tuần 1 lần, 30 phút |
 | 4 | Cần đọc, tổng hợp nhiều thông tin | Khi ôn thi một môn có nhiều slide, giáo trình và bài tập, tôi muốn hệ thống kiến thức theo từng chủ đề, để không bỏ sót nội dung quan trọng. | Sinh viên đại học | Mỗi tháng 1 lần, mỗi môn 60 phút. |
 | 5 | Pain từ người khác | Khi nhóm chuẩn bị nộp bài tập lớn, tôi muốn kiểm tra báo cáo đã đáp ứng đủ yêu cầu của giảng viên, để tránh thiếu nội dung hoặc sai định dạng. | Các thành viên nhóm và người tổng hợp báo cáo | Mỗi tuần 1 lần, 30 phút. |
@@ -33,8 +33,8 @@
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
 | 1 | #1 Mất nhiều thời gian đọc và phân tích bài báo khoa học tiếng Anh | Thời gian đọc một bài báo khoảng 2 tiếng, ảnh hưởng trực tiếp đến tiến độ tìm hiểu tài liệu nghiên cứu. | Chất lượng review khó đo, tốn thời gian ở bước nào nhất. |
-| 2 | #2 khó đối chiếu kết quả giữa nhiều lần huấn luyện mô hình AI | Công việc lặp lại hằng tuần, mất khoảng 20 phút mỗi lần và dễ nhầm lẫn giữa các phiên bản thí nghiệm. | Chưa biết việc tự động lập bảng so sánh có thể tiết kiệm bao nhiêu thời gian. |
-| 3 | #5 Mất thời gian kiểm tra báo cáo bài tập lớn trước khi nộp | Công việc ảnh hưởng đến chất lượng bài nộp, mất khoảng 30 phút mỗi lần và cần đối chiếu nhiều yêu cầu. | Chưa biết cách nào giúp kiểm tra báo cáo nhanh hơn mà vẫn đảm bảo không bỏ sót lỗi. |
+| 2 | #2 khó đối chiếu kết quả giữa nhiều lần huấn luyện mô hình AI | Công việc lặp lại hằng tuần, mất 30 phút mỗi lần và dễ nhầm lẫn giữa các phiên bản thí nghiệm. | Chưa biết việc tự động lập bảng so sánh có thể tiết kiệm bao nhiêu thời gian. |
+| 3 | #5 Mất thời gian kiểm tra báo cáo bài tập lớn trước khi nộp | Công việc ảnh hưởng đến chất lượng bài nộp, mất khoảng 40 phút mỗi lần và cần đối chiếu nhiều yêu cầu. | Chưa biết cách nào giúp kiểm tra báo cáo nhanh hơn mà vẫn đảm bảo không bỏ sót lỗi. |
 
 ### Problem Card #1
 
@@ -43,81 +43,82 @@
 | Job Story | Khi đọc một bài báo khoa học bằng tiếng Anh, tôi muốn nhanh chóng xác định bài toán, phương pháp và kết quả chính, để chọn được tài liệu phù hợp cho đề tài nghiên cứu. |
 | Actor | Sinh viên thực hiện nghiên cứu khoa học. |
 | Thời điểm / bối cảnh | Khi cần tìm hiểu các bài báo khoa học để phục vụ đề tài nghiên cứu. |
-| Quy trình hiện tại (3–7 bước) | 1. Tìm kiếm bài báo liên quan. 2. Đọc Abstract và Introduction. 3. Phân tích phương pháp và kiến trúc. 4. Đọc kết quả thực nghiệm. 5. Tổng hợp nội dung quan trọng. |
-| Impact (nếu không giải thì sao) | Tốn thời gian đối chiếu, dễ nhầm kết quả giữa các lần chạy và khó tái hiện thí nghiệm. |
-| Success metric (baseline → target) | Thời gian làm bảng so sánh: __________ → __________ phút; số lỗi ghép sai config với metrics: __________ → __________ lỗi. |
-| Phương án không dùng AI | Quy định tên file thống nhất và dùng Python/pandas để tổng hợp CSV, log theo cấu trúc cố định. |
-| Giả thuyết về AI (nếu có) | AI hỗ trợ viết nháp phần nhận xét dựa trên bảng chỉ số đã kiểm tra; con người xác minh trước khi sử dụng. |
-| Cảm nhận nhanh | Rule / Workflow. |
+| Quy trình hiện tại (3–7 bước) | 1. Tìm kiếm bài báo liên quan. 2. Đọc Abstract và Introduction. 3. Phân tích phương pháp và kiến trúc. 4. Đọc kết quả thực nghiệm. 5. Tổng hợp nội dung chính. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3 tốn thời gian nhất, 90 phút. |
+| Impact (nếu không giải thì sao) | Mất nhiều thời gian tìm hiểu tài liệu, làm chậm tiến độ nghiên cứu và hạn chế số lượng bài báo có thể đọc. |
+| Success metric (baseline → target) | Baseline: 120 phút/bài. Target đề xuất: 60 phút/bài; vẫn xác định đúng bài toán, phương pháp và kết quả chính khi đối chiếu với bài gốc.. |
+| Phương án không dùng AI | Đọc các phần theo mức độ ưu tiên, dùng mẫu ghi chú cố định để tóm tắt bài toán, phương pháp, dữ liệu và kết quả. |
+| Giả thuyết về AI (nếu có) |AI có thể hỗ trợ tóm tắt và giải thích các phần khó của bài báo; người đọc kiểm tra lại thông tin với bài gốc. |
+| Cảm nhận nhanh | Workflow. |
 
 Quy trình nháp hiện tại:
 
 ```text
-1. Tìm thư mục của các lần chạy          (_____ phút)
-2. Mở các file log/CSV                   (_____ phút)
-3. Đối chiếu cấu hình và tham số         (_____ phút)
-4. Tổng hợp các chỉ số vào một bảng      (_____ phút)
-5. So sánh kết quả giữa các lần chạy     (_____ phút)
-6. Viết nhận xét cho báo cáo             (_____ phút)
+1. Tìm bài báo liên quan (5 phút)
+2. Đọc Abstract và Introduction (5 phút)
+3. Đọc, phân tích phương pháp và kiến trúc (90 phút)
+4. Xem kết quả thực nghiệm (5 phút)
+5. Ghi chú và tổng hợp nội dung (15 phút)
+Tổng thời gian: khoảng 120 phút/bài
 ```
 
 ### Problem Card #2
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi nhóm chuẩn bị nộp bài tập lớn, tôi muốn kiểm tra báo cáo đã đáp ứng đủ yêu cầu của giảng viên, để tránh thiếu nội dung hoặc sai định dạng. |
-| Actor | Sinh viên phụ trách rà soát, tổng hợp báo cáo nhóm. |
-| Thời điểm / bối cảnh | Trước hạn nộp bài tập lớn hoặc khi ghép nội dung các thành viên. |
-| Quy trình hiện tại (3–7 bước) | (1) Đọc yêu cầu; (2) lập checklist; (3) mở báo cáo; (4) đối chiếu; (5) ghi lỗi và sửa; (6) kiểm tra lại. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước: __________; thời gian đo được: __________ phút. |
-| Impact (nếu không giải thì sao) | Dễ bỏ sót nội dung bắt buộc, phải sửa gấp trước hạn nộp và có nguy cơ mất điểm. |
-| Success metric (baseline → target) | Thời gian kiểm tra báo cáo: __________ → __________ phút; số yêu cầu bỏ sót: __________ → __________ mục. |
-| Phương án không dùng AI | Dùng checklist dựa trên rubric và phân công thành viên kiểm tra chéo. |
-| Giả thuyết về AI (nếu có) | AI hỗ trợ đối chiếu các đề mục với rubric và gợi ý vị trí thiếu; người học tự xác nhận. |
-| Cảm nhận nhanh | No AI / Workflow. |
+| Job Story | Khi đánh giá mô hình AI sau nhiều lần huấn luyện, tôi muốn đối chiếu các chỉ số và cấu hình thí nghiệm, để biết phiên bản nào thực sự cải thiện kết quả. |
+| Actor | Sinh viên và nhóm nghiên cứu AI. |
+| Thời điểm / bối cảnh | 	Sau khi chạy nhiều thí nghiệm huấn luyện mô hình với các cấu hình khác nhau. |
+| Quy trình hiện tại (3–7 bước) | 1. Tìm file kết quả các lần chạy. 2. Kiểm tra cấu hình thí nghiệm. 3. Ghi lại các chỉ số đánh giá. 4. Đối chiếu kết quả giữa các phiên bản. 5. Nhận xét và chọn phiên bản phù hợp. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến bước 4 tốn thời gian nhất vì phải so sánh nhiều chỉ số và cấu hình. |
+| Impact (nếu không giải thì sao) | Tốn thời gian, dễ nhầm lẫn giữa các phiên bản và khó xác định thay đổi nào thực sự cải thiện kết quả. |
+| Success metric (baseline → target) | Baseline: 20 phút/lần đối chiếu. Target đề xuất: 10 phút/lần; các chỉ số và cấu hình phải được đối chiếu đúng với file kết quả gốc. |
+| Phương án không dùng AI | Chuẩn hóa tên file và ghi kết quả vào CSV hoặc Excel; dùng bảng tính hoặc Python để tự động tổng hợp và so sánh. |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ diễn giải chênh lệch các chỉ số và gợi ý điểm cần kiểm tra, không tự tạo hay thay đổi kết quả đo. |
+| Cảm nhận nhanh | Rule |
 
 Quy trình nháp hiện tại:
 
 ```text
-1. Đọc đề bài và rubric                 (_____ phút)
-2. Lập danh sách tiêu chí cần kiểm      (_____ phút)
-3. Mở báo cáo và rà cấu trúc            (_____ phút)
-4. Đối chiếu nội dung với từng yêu cầu  (_____ phút)
-5. Ghi lỗi và chỉnh sửa                 (_____ phút)
-6. Kiểm tra lại trước khi nộp           (_____ phút)
+1. Tìm file kết quả thí nghiệm (2 phút)
+2. Kiểm tra cấu hình từng lần chạy (5 phút)
+3. Ghi lại các chỉ số đánh giá (3 phút)
+4. Đối chiếu kết quả giữa các phiên bản (15 phút)
+5. Nhận xét và chọn phiên bản (5 phút)
+Tổng thời gian: khoảng 30 phút/lần
 ```
 
 ### Problem Card #3
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi đọc một bài báo khoa học bằng tiếng Anh, tôi muốn nhanh chóng xác định bài toán, phương pháp và kết quả chính, để chọn được tài liệu phù hợp cho đề tài nghiên cứu. |
-| Actor | Sinh viên đang làm nghiên cứu khoa học hoặc đồ án. |
-| Thời điểm / bối cảnh | Khi tìm tài liệu liên quan và chuẩn bị phần tổng quan nghiên cứu. |
-| Quy trình hiện tại (3–7 bước) | (1) Tìm paper; (2) đọc abstract/introduction; (3) phân tích phương pháp; (4) xem thí nghiệm; (5) tra thuật ngữ; (6) tổng hợp ghi chú. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước: __________; thời gian đo được: __________ phút. |
-| Impact (nếu không giải thì sao) | Mất nhiều thời gian tìm tài liệu, dễ bỏ sót công trình phù hợp hoặc hiểu sai phương pháp nghiên cứu. |
-| Success metric (baseline → target) | Thời gian đọc và tạo ghi chú cho một paper: __________ → __________ phút; số thông tin sai khi đối chiếu PDF: __________ → __________. |
-| Phương án không dùng AI | Sử dụng mẫu ghi chú cố định theo Problem – Method – Dataset – Metrics – Limitations. |
-| Giả thuyết về AI (nếu có) | AI hỗ trợ xác định ý chính và vị trí thông tin trong paper; người học kiểm tra lại trực tiếp với PDF. |
+| Job Story | Khi nhóm chuẩn bị nộp bài tập lớn, tôi muốn kiểm tra báo cáo đã đáp ứng đủ yêu cầu của giảng viên, để tránh thiếu nội dung hoặc sai định dạng. |
+| Actor | 	Các thành viên nhóm làm bài tập lớn và người tổng hợp báo cáo. |
+| Thời điểm / bối cảnh | 	Khi báo cáo bài tập lớn đã hoàn thành và nhóm chuẩn bị nộp cho giảng viên. |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc yêu cầu của giảng viên. 2. Kiểm tra các phần trong báo cáo. 3. Đối chiếu nội dung với từng yêu cầu. 4. Kiểm tra định dạng và tài liệu tham khảo. 5. Ghi lại lỗi và chỉnh sửa. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | 	Dự kiến bước 3 tốn thời gian nhất vì phải tự đối chiếu từng yêu cầu với báo cáo. Thời gian thực tế: 20 phút. |
+| Impact (nếu không giải thì sao) | Dễ bỏ sót nội dung, sai định dạng, ảnh hưởng đến chất lượng và điểm số của bài tập lớn. |
+| Success metric (baseline → target) | Baseline: 40 phút/lần kiểm tra. Target đề xuất: 20 phút/lần; không bỏ sót các yêu cầu trong checklist đã lập. |
+| Phương án không dùng AI | Lập checklist theo yêu cầu của giảng viên và phân công thành viên kiểm tra từng phần. |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ đối chiếu yêu cầu với báo cáo và gợi ý phần còn thiếu; người dùng kiểm tra lại các nhận xét. |
 | Cảm nhận nhanh | Workflow. |
 
 Quy trình nháp hiện tại:
 
 ```text
-1. Tìm và chọn bài báo                  (_____ phút)
-2. Đọc abstract và introduction         (_____ phút)
-3. Phân tích methodology và kiến trúc   (_____ phút)
-4. Đọc experiments và kết quả           (_____ phút)
-5. Tra thuật ngữ, ghi chú hạn chế       (_____ phút)
-6. Tổng hợp và so sánh với đề tài       (_____ phút)
+1. Đọc yêu cầu của giảng viên (5 phút)
+2. Kiểm tra các mục trong báo cáo (5 phút)
+3. Đối chiếu nội dung với từng yêu cầu (20 phút)
+4. Kiểm tra định dạng và tài liệu tham khảo (5 phút)
+5. Ghi lại lỗi và chỉnh sửa (5 phút)
+Tổng thời gian: khoảng 40 phút/lần
 ```
 
 ### Card muốn pitch nhất
 
-- Card số: __________
-- Vì sao: __________
-- Câu hỏi muốn nhóm phản biện: __________
+- Card số: 1
+- Vì sao: Việc đọc và phân tích bài báo mất khoảng 2 tiếng mỗi lần, ảnh hưởng trực tiếp đến tiến độ nghiên cứu. Vấn đề có quy trình tương đối rõ và có thể đo thời gian trước và sau khi cải tiến.
+- Câu hỏi muốn nhóm phản biện: Câu hỏi muốn nhóm phản biện: Làm thế nào để rút ngắn thời gian đọc paper mà vẫn hiểu đúng phương pháp và kết quả của bài báo?
 
 ### AI đã phản biện card thế nào
 
