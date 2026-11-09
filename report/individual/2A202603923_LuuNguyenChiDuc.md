@@ -21,11 +21,11 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
 | 1 | Tốn thời gian | Khi bài lab yêu cầu code tay những phần kiến thức đã lâu không dùng, tôi muốn biết cần ôn khái niệm nào và dùng hàm thư viện nào cho từng phần, để không mất hàng giờ tra cứu trước khi bắt tay vào làm | Học viên AI20K làm lab code | Lab Day 01: hơn 3 giờ để ôn lại khái niệm cũ và tra cú pháp thư viện, trong khi cùng ngày có workshop 20:00-22:00 |
-| 2 | Lặp lại | Khi vừa làm xong bài lab và sắp tới hạn nộp, tôi muốn biết chính xác phải nộp file gì và đặt tên thế nào, để không mất điểm vì sai quy trình nộp | Học viên AI20K | Lab Day 01: khoảng 75 phút (ước tính) từ lúc làm xong đến lúc nộp link, trong đó 15 phút đi hỏi và tìm cách nộp; có file sinh ra bị lỗi kỹ thuật và một lần commit trễ; Phase 1 có 6 lab, mỗi lab có hướng dẫn nộp riêng |
+| 2 | Lặp lại | Khi vừa làm xong bài lab và sắp tới hạn nộp, tôi muốn biết chính xác phải nộp file gì, đặt tên thế nào và chắc chắn mọi file đều đủ và không lỗi, để không mất điểm vì sai quy trình nộp | Học viên AI20K | Lab Day 01: khoảng 75 phút (ước tính) từ lúc làm xong đến lúc nộp link, trong đó 15 phút đi hỏi và tìm cách nộp; có file sinh ra bị lỗi kỹ thuật và một lần commit trễ; Phase 1 có 6 lab, mỗi lab có hướng dẫn nộp riêng |
 | 3 | Pain từ người khác | Khi nhóm tạo repo nộp bài theo mẫu đặt tên, nhóm muốn kiểm tra ngay tên đã đúng hay chưa, để không bị trừ 5 điểm | Các nhóm lab L3A, L3B | Đếm danh sách fork của repo đề bài Day 02 lúc 14:58 ngày 09/11/2026: 93/196 fork đúng chính xác mẫu tên, 160/196 nếu bỏ qua chữ hoa/thường |
-| 4 | Lặp lại | Khi nhóm 4 người làm nhiều task song song và có task phụ thuộc nhau, tôi muốn biết task nào đã xong và ai có thể bắt đầu phần tiếp theo, để không phải nhắn hỏi và cập nhật từng người mỗi ngày | Nhóm dự án 4 người, trao đổi trên Discord | Khoảng 20 phút/ngày, hằng ngày, cả việc hỏi người khác và trả lời khi được hỏi; mỗi lần bàn giao task khoảng 40+ phút (ước tính), có lần chờ cả một ngày |
+| 4 | Lặp lại | Khi nhóm 4 người làm nhiều task song song và có task phụ thuộc nhau, tôi muốn biết task nào đã xong và ai có thể bắt đầu phần tiếp theo, để không phải nhắn hỏi và cập nhật từng người mỗi ngày | Nhóm dự án 4 người, trao đổi trên Discord | Khoảng 20 phút/ngày, hằng ngày, cả việc hỏi người khác và trả lời khi được hỏi; mỗi lần bàn giao task khoảng 40+ phút (ước tính), thường chờ khoảng 1 ngày |
 | 5 | Cần đọc, tổng hợp nhiều thông tin | Khi chuẩn bị ký hợp đồng thuê nhà gần trường, tôi muốn biết điều khoản nào bất thường hoặc bất lợi cho mình, để không ký phải điều kiện thiệt thòi | Sinh viên thuê trọ | Khoảng 0-1 lần/năm; lần gần nhất là khi tìm chỗ ở gần trường |
-| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi tìm việc trên nhiều trang tuyển dụng, tôi muốn biết nhanh tin nào hợp với CV của mình, để dành thời gian ứng tuyển vào đúng việc | Sinh viên đang tìm việc | 5-7 trang tuyển dụng, 20-60 phút mỗi lần dò tin, khoảng 55 phút cho mỗi tin từ đọc JD đến gửi CV (ước tính), đọc khoảng 50-60 JD để gửi hơn 20 CV |
+| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi tìm việc trên nhiều trang tuyển dụng, tôi muốn biết nhanh tin nào hợp với CV của mình, để dành thời gian ứng tuyển vào đúng việc | Người mới tốt nghiệp đang tìm việc | Đợt tìm việc tháng 9/2026, làm thủ công: 5-7 trang tuyển dụng, 20-60 phút mỗi lần dò tin, khoảng 55 phút cho mỗi tin từ đọc JD đến gửi CV (ước tính), đọc khoảng 50-60 JD để gửi hơn 20 CV |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -42,14 +42,14 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
 | 1 | Quy trình nộp bài lab (dòng 2, dòng 3 là bằng chứng thêm) | Các bước rõ, có một bước cụ thể hay hỏng, kiểm chứng được ngay với học viên trong lớp | Có phải chỉ đau khi sát hạn nộp không? |
-| 2 | Cập nhật trạng thái task trong nhóm trên Discord (dòng 4) | Xảy ra hằng ngày, khoảng 20 phút, các task phụ thuộc nhau làm bottleneck cụ thể | Một bảng task đơn giản đã đủ giải quyết chưa? |
+| 2 | Cập nhật trạng thái task trong nhóm trên Discord (dòng 4) | Xảy ra hằng ngày, khoảng 20 phút, các task phụ thuộc nhau làm bottleneck cụ thể | Trạng thái tự cập nhật từ commit có đủ để mọi người không phải hỏi nhau không? |
 | 3 | Tìm việc trên nhiều trang tuyển dụng (dòng 6) | Tốn nhiều thời gian và lặp lại, các bước rõ, đếm được | Bước nghẽn thật là dò tin hay đọc JD không hợp? |
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi vừa làm xong bài lab và sắp tới hạn nộp, tôi muốn biết chính xác phải nộp file gì và đặt tên thế nào, để không mất điểm vì sai quy trình nộp |
+| Job Story | Khi vừa làm xong bài lab và sắp tới hạn nộp, tôi muốn biết chính xác phải nộp file gì, đặt tên thế nào và chắc chắn mọi file đều đủ và không lỗi, để không mất điểm vì sai quy trình nộp |
 | Actor | Học viên AI20K làm lab và nộp bài qua GitHub và LMS |
 | Thời điểm / bối cảnh | Cuối buổi lab, ngay trước hạn nộp; ở Day 01 cùng ngày còn có workshop 20:00-22:00 |
 | Quy trình hiện tại (3–7 bước) | 1. Hỏi và tra cách nộp, file cần có · 2. Chụp ảnh bài tính tay, chuyển sang laptop, đổi tên · 3. Sinh file báo cáo, tải và đổi tên notebook · 4. Kiểm tra lỗi khi chạy · 5. Hoàn thiện báo cáo, reflection, thông tin cá nhân · 6. Đưa file vào đúng thư mục và kiểm tra lại đủ file, không lỗi · 7. Nộp link trên LMS |
@@ -80,9 +80,9 @@ HIỆN TẠI - 7 bước, khoảng 75 phút (ước tính), Lab Day 01
 | Actor | Thành viên nhóm capstone 4 người (ví dụ: người làm mobile chờ người làm backend), trao đổi trên Discord |
 | Thời điểm / bối cảnh | Khi một người xong phần của mình và người tiếp theo cần phần đó để bắt đầu, ví dụ mobile cần dữ liệu từ backend để vẽ biểu đồ |
 | Quy trình hiện tại (3–7 bước) | 1. Viết cập nhật ngắn: đã làm gì, cần đọc tài liệu nào, cần lưu ý gì · 2. Chờ người tiếp theo phản hồi · 3. Kiểm tra lại code · 4. Giải thích cho người tiếp theo |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, chờ phản hồi: không cố định, trường hợp xấu nhất là cả một ngày. Chờ qua ngày là bình thường trong dự án; cái đau là không biết khi nào người kia rảnh, nếu họ xuất hiện lúc mình đang bận thì phải dừng việc để giải thích hoặc hẹn lại, làm task sau bắt đầu muộn |
-| Impact (nếu không giải thì sao) | Khoảng 40+ phút làm việc cho mỗi lần bàn giao (ước tính), có lần mất cả ngày chờ; giáo sư từng hỏi vì sao thiếu biểu đồ ở phần mobile khi phần này còn chờ dữ liệu từ backend; từng có tài liệu chưa cập nhật và có người chưa pull code mới đã làm tính năng |
-| Success metric (baseline → target) | Số lần phải dừng việc hoặc hẹn lại để giải thích: đếm 1 tuần làm baseline → giảm một nửa; thời gian làm việc cho mỗi lần bàn giao: 40+ phút → dưới 15 phút; số lần làm trên tài liệu cũ hoặc code cũ: có xảy ra, chưa đếm → 0 lần trong 2 tuần; đo bằng ghi thời điểm xong và thời điểm bắt đầu của từng task trong 2 tuần |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2, chờ phản hồi: thường khoảng 1 ngày. Chờ qua ngày là bình thường trong dự án; cái đau là không biết khi nào người kia rảnh, nếu họ xuất hiện lúc mình đang bận thì phải dừng việc để giải thích hoặc hẹn lại, làm task sau bắt đầu muộn |
+| Impact (nếu không giải thì sao) | Khoảng 40+ phút làm việc cho mỗi lần bàn giao (ước tính), thường thêm khoảng 1 ngày chờ; giáo sư từng hỏi vì sao thiếu biểu đồ ở phần mobile khi phần này còn chờ dữ liệu từ backend; từng có tài liệu chưa cập nhật và có người chưa pull code mới đã làm tính năng |
+| Success metric (baseline → target) | Số lần phải dừng việc hoặc hẹn lại để giải thích: đếm 1 tuần làm baseline → giảm một nửa; thời gian làm việc cho mỗi lần bàn giao: 40+ phút → dưới 15 phút; số lần làm trên tài liệu cũ hoặc code cũ: có xảy ra, chưa đếm → 0 lần trong 2 tuần; đo bằng đếm số lần phải dừng việc hoặc hẹn lại trên Discord và tự ghi giờ mỗi lần bàn giao trong 2 tuần |
 | Phương án không dùng AI | Mẫu ghi chú bàn giao cố định (đã làm gì, tài liệu nào, lưu ý gì), khung giờ bàn giao cố định mỗi ngày, quy tắc pull code trước khi làm. Bảng task kiểu Trello: theo kinh nghiệm của tôi mọi người không chịu cập nhật, nên cần cách ít tốn công hơn, ví dụ trạng thái tự cập nhật từ commit |
 | Giả thuyết về AI (nếu có) | AI soạn nháp ghi chú bàn giao từ commit; người bàn giao đọc và sửa trước khi gửi. Việc này chỉ rút ngắn bước 1, không giải quyết việc chờ |
 | Cảm nhận nhanh | Rule |
@@ -92,7 +92,7 @@ Quy trình nháp hiện tại:
 ```text
 HIỆN TẠI - 4 bước, khoảng 40+ phút làm việc cho mỗi lần bàn giao (ước tính), chưa tính thời gian chờ
 
-[1 Viết cập nhật ngắn: 10'] → [2 Chờ phản hồi: không cố định, có lần cả ngày] ← BOTTLENECK
+[1 Viết cập nhật ngắn: 10'] → [2 Chờ phản hồi: khoảng 1 ngày] ← BOTTLENECK
 → [3 Kiểm tra lại code: 10'] → [4 Giải thích cho người tiếp theo: 20+']
 ```
 
@@ -101,12 +101,12 @@ HIỆN TẠI - 4 bước, khoảng 40+ phút làm việc cho mỗi lần bàn gi
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi tìm việc trên nhiều trang tuyển dụng, tôi muốn biết nhanh tin nào hợp với CV của mình, để dành thời gian ứng tuyển vào đúng việc |
-| Actor | Sinh viên đang tìm việc, theo dõi 5-7 trang tuyển dụng |
-| Thời điểm / bối cảnh | Trong đợt tìm việc, mỗi lần ngồi dò tin mới |
+| Actor | Người mới tốt nghiệp (fresh graduate) ngành công nghệ đang tìm việc, theo dõi 5-7 trang tuyển dụng |
+| Thời điểm / bối cảnh | Đợt tìm việc gần nhất, tháng 9/2026, mỗi lần ngồi dò tin mới. Số liệu ở đây là từ lúc còn làm thủ công, trước khi tôi tự viết script gom tin |
 | Quy trình hiện tại (3–7 bước) | 1. Dò tin mới trên 5-7 trang · 2. Đọc JD · 3. Kiểm tra ATS · 4. Đánh giá việc có hợp với CV không · 5. Chỉnh và gửi CV |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Chính: bước 1, dò tin trên 5-7 trang, 20-60 phút mỗi lần, tùy ngày, phải vào từng trang và đọc nhiều tin mới biết tin nào đáng xem. Thứ hai: bước 2-4, đọc và đánh giá JD, khoảng 35 phút cho mỗi tin, kể cả tin hóa ra không hợp |
 | Impact (nếu không giải thì sao) | Khoảng 55 phút cho mỗi tin từ đọc JD đến gửi CV (ước tính), với hơn 20 CV là hơn 18 giờ, chưa tính thời gian dò tin; đọc khoảng 50-60 JD để gửi hơn 20 CV, tức khoảng 30-40 JD đọc xong không gửi, ít nhất 5-7 giờ chỉ riêng việc đọc; từng mất dấu nơi đã ứng tuyển |
-| Success metric (baseline → target) | Thời gian dò tin mỗi lần: 20-60 phút → dưới 10 phút; số đơn không theo dõi được: có xảy ra, chưa đếm → 0; đo bằng tự ghi giờ và bảng theo dõi đơn trong 2 tuần |
+| Success metric (baseline → target) | Thời gian dò tin mỗi lần: 20-60 phút → dưới 10 phút; tỉ lệ JD đọc xong có gửi CV: khoảng 33-40% → trên 60%; số đơn không theo dõi được: có xảy ra, chưa đếm → 0; đo bằng tự ghi giờ và bảng theo dõi đơn trong 2 tuần |
 | Phương án không dùng AI | Bật job alert theo từ khóa trên từng trang, dùng một bảng tính theo dõi công ty, ngày gửi, trạng thái; đặt một khung giờ cố định mỗi tuần để dò tin |
 | Giả thuyết về AI (nếu có) | Rule gom tin mới từ các trang về một chỗ; AI chấm mức phù hợp giữa JD và CV kèm lý do; người tìm việc quyết định có ứng tuyển không và tự kiểm tra CV trước khi gửi |
 | Cảm nhận nhanh | Workflow |
@@ -132,9 +132,9 @@ HIỆN TẠI - 5 bước, cho tin đầu tiên khoảng 75-115 phút (ước tí
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Card 1: 75 phút chỉ dựa trên trí nhớ | Đồng ý | Ghi rõ là ước tính; sẽ bấm giờ khi nộp Lab Day 02 để có số thật |
+| Card 1: 75 phút chỉ dựa trên trí nhớ | Đồng ý | Ghi rõ là ước tính; sẽ bấm giờ ở lab code tiếp theo để có số thật |
 | Card 1: bước 2 và 3 chỉ có ở lab code, nên con số 7,5 giờ cho 6 lab không chắc | Đồng ý một phần | Bỏ phép ngoại suy 7,5 giờ, nhưng giữ nhận định khâu nộp tốn nhiều thời gian vì lịch gợi ý của lab đã quá sát |
-| Card 2: "cả một ngày" là trường hợp xấu nhất, baseline bị thổi phồng | Đồng ý một phần | Chờ qua ngày là bình thường trong dự án, nên ghi là trường hợp xấu nhất; đổi metric sang số lần phải dừng việc hoặc hẹn lại để giải thích |
+| Card 2: "cả một ngày" là trường hợp xấu nhất, baseline bị thổi phồng | Đồng ý một phần | Chờ khoảng 1 ngày là mức thường gặp trong dự án, không phải trường hợp xấu nhất; cái đau là phải dừng việc, nên đổi metric sang số lần phải dừng việc hoặc hẹn lại để giải thích |
 | Card 2: bảng task gần như không tốn tiền, sao chưa đủ? | Đồng ý | Ghi vào phương án không dùng AI: mọi người không chịu cập nhật Trello; đổi cảm nhận nhanh sang Rule, với trạng thái tự cập nhật từ commit |
 | Card 3: bước nghẽn có thể là đọc JD không hợp (35 phút/tin), không phải dò tin | Đồng ý một phần | Cả hai đều tốn thời gian: giữ bước 1 là bottleneck chính, thêm bước 2-4 là bottleneck thứ hai |
 | Card 3: chưa có tỉ lệ JD đọc so với số CV gửi | Đồng ý | Thêm số liệu: đọc khoảng 50-60 JD để gửi hơn 20 CV |
