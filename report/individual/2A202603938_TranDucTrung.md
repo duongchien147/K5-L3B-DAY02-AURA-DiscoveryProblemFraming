@@ -10,7 +10,7 @@
 - MSSV: 2A202603938
 - Email trường (không bắt buộc, repo có thể để public): 
 - Tên nhóm: AURA
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/duongchien147/K5-L3B-DAY02-AURA-DiscoveryProblemFraming
 
 ---
 
