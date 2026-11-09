@@ -132,9 +132,9 @@ Tổng hợp:
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Google Drive Search | https://support.google.com/drive/answer/2375114 | Tìm lại tài liệu, báo cáo và Google Sheets đã lưu trên Drive. | Có sẵn, dễ sử dụng; hỗ trợ tìm theo tên, nội dung, loại file và thời gian chỉnh sửa. | Không tìm được nội dung trao đổi trên Zalo; tài liệu phân tán hoặc đặt tên không thống nhất vẫn khó tìm. | Nên thử chuẩn hóa tên file và cấu trúc thư mục Drive trước khi sử dụng AI. |
+| Notion Wiki | https://www.notion.com/help/wikis-and-verified-pages | Tập trung các quyết định, biên bản họp và đường dẫn tài liệu của nhóm vào một nơi. | Dễ tổ chức thông tin theo từng dự án; hỗ trợ tìm kiếm và cập nhật nội dung chung. | Thành viên phải chủ động cập nhật; thông tin trên Zalo và Drive không tự động được tập hợp đầy đủ. | Cần thống nhất nơi lưu trữ thông tin quan trọng và quy định người chịu trách nhiệm cập nhật. |
+| Gemini Notebook (NotebookLM) | https://support.google.com/gemininotebook/answer/16215270 | Tìm kiếm, tổng hợp và trả lời câu hỏi từ các tài liệu Google Docs, Sheets, PDF đã đưa vào notebook. | Hỗ trợ hỏi đáp bằng ngôn ngữ tự nhiên, tổng hợp nhiều tài liệu và trích dẫn nguồn để kiểm tra. | Cần lựa chọn nguồn tài liệu; không tự động bao phủ toàn bộ tin nhắn Zalo; câu trả lời AI vẫn cần kiểm chứng. | Có thể thử nghiệm AI trên một tập tài liệu nhỏ và so sánh thời gian, độ chính xác với cách tìm kiếm thủ công. |
 
 ---
 
