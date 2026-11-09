@@ -106,21 +106,23 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 ### VuVanTruong-2A202603910
 
 **Phần việc phụ trách:**
-
-- Đánh giá mức độ can thiệp AI (Rule/Workflow/Agent), AI Canvas, thiết lập Eval (CP6)
+- Scan problem (CP1): tự scan 7 problem từ trải nghiệm thật, trải đủ 4 lăng kính
+- Top 3 Problem Cards (CP2): viết Problem Card cho 3 candidate (Hypertuning AI Agent, Tổng hợp AI news từ X, Tổng hợp chi tiêu cuối tháng), vẽ quy trình nháp, phản biện card bằng AI
+- Pivot Problem Card #1 sang framing AI Agent (Zero-config tuning & Semantic early-stopping)
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603910_VuVanTruong.md`)
-- Phân tích ma trận độ mơ hồ × phức tạp, xây dựng bộ tiêu chí Eval cho giải pháp
+- Bảng scan 7 problem trong `report/individual/2A202603910_VuVanTruong.md` mục 2 (đạt tối thiểu C1, hướng tới bonus B1)
+- 3 Problem Card + quy trình nháp trong `report/individual/2A202603910_VuVanTruong.md` mục 3
+- Problem Card #1 (Hypertuning model) được nâng cấp từ Workflow sang Agent: Actor = ML Engineers/Researchers (Kaggle/Colab), giả thuyết AI = LLM Agent đọc code sinh search space + pruning sớm
+- Bảng phản biện card: 3 điểm yếu sát thủ (chi phí LLM API, độ trễ, hallucinate hyperparameter) và cách sửa
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- Mục 6.1, 6.2, 6.3 trong `group_report.md`
+- File: `report/individual/2A202603910_VuVanTruong.md` (mục 2-3)
+- Commit: `f97489c` "Add personal report: scan 7 problems, top 3 problem cards (hypertuning AI Agent)"
+- (CP3-CP6: sẽ cập nhật sau khi làm nhóm)
 
 **Điều mình học được từ phần nhóm:**
-
--
+- (Sẽ điền sau khi hoàn thành CP3-CP6)
 
 ---
 
