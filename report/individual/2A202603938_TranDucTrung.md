@@ -149,8 +149,8 @@ Tổng thời gian: khoảng 40 phút/lần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Nhờ ChatGPT gợi ý 8 vấn đề và cách diễn đạt Job Story. | Giúp phân loại vấn đề theo bốn lăng kính và viết Job Story rõ hơn. | AI không có bằng chứng thực tế và có những vấn đề gần giống nhau. | __________ |
-| CP2 Problem Card | Nhờ ChatGPT phác thảo 3 Problem Cards, quy trình và các chỉ số đánh giá. | Hỗ trợ xác định các bước, phương án không dùng AI và giả thuyết về AI. | Các bottleneck và baseline chưa được đo từ trải nghiệm thực tế. | __________ |
+| CP1 Scan | | | |
+| CP2 Problem Card | | | |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
