@@ -120,10 +120,13 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Bảng phản biện card: 3 điểm yếu sát thủ (chi phí LLM API, độ trễ, hallucinate hyperparameter) và cách sửa
 - Research 6 công cụ giải pháp trong `group_report.md` mục 3.3
 - Điền Mục 6 (Ma trận, 4 mức, AI Canvas, PAIR), Mục 7 (PS v1 + 5 tiêu chí Eval), Mục 8 (4 rủi ro + Quyết định Go), Mục 9 (Hạn chế & hướng tiếp theo) trong `group_report.md`
+- Hoàn thành báo cáo cá nhân CP4–CP7: điền Mục 4 (tham gia phần nào), Mục 5 (Dùng AI), Mục 6 (reflection ≥200 từ), Mục 7 (tài liệu tham khảo) trong `report/individual/2A202603910_VuVanTruong.md`
+- Dọn `group_report.md`: xóa khối 8.2 trùng lặp (template rỗng)
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-- File cá nhân: `report/individual/2A202603910_VuVanTruong.md` (mục 2-3)
+- File cá nhân: `report/individual/2A202603910_VuVanTruong.md` (mục 2–7)
 - Commit cá nhân: `f97489c` "Add personal report: scan 7 problems, top 3 problem cards (hypertuning AI Agent)"
+- Commit hoàn thành: `9d2fd61` "Complete individual report CP4-CP7 ...", `19e56bf` "Fill section 7 references ..."
 - group_report.md: Mục 3.3 (research), Mục 6 (mức can thiệp AI), Mục 7 (PS v1 + Eval), Mục 8 (quyết định Go), Mục 9 (hạn chế & hướng tiếp theo)
 
 **Điều mình học được từ phần nhóm:**
