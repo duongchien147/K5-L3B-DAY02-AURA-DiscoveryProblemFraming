@@ -94,12 +94,11 @@ Ban đầu có thành viên muốn chọn Candidate #10 vì hứng thú với kh
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | PM, Team Leader hoặc thành viên nhóm thường xuyên phải tham gia tổng hợp báo cáo công việc. | Value | 5 | 1 | Có |
+| 2 | Việc thu thập báo cáo từ nhiều nguồn hoặc báo cáo không thống nhất định dạng gây khó khăn cho quá trình tổng hợp. | Value | 5 | 1 | Có |
+| 3 | Các nhóm thường gặp tình trạng thiếu thông tin hoặc thành viên gửi báo cáo trễ. | Value | 5 | 1 | Có |
+| 4 | Việc tổng hợp báo cáo thủ công gây ảnh hưởng đáng kể đến công việc của người phụ trách. | Value | 5 | 1 | Có |
+| 5 | Người phụ trách có nhu cầu ưu tiên cải thiện công đoạn thu thập hoặc tổng hợp báo cáo vào file chung. | Value | 4 | 1 | Có |
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
