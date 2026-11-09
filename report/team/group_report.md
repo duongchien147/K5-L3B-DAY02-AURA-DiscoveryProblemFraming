@@ -8,7 +8,7 @@
 - Tên nhóm: AURA
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Khi thực hiện đồ án nhóm, các thành viên gặp khó khăn và mất nhiều thời gian khi tìm lại tài liệu, quyết định và thông tin quan trọng bị phân tán trên nhiều kênh (Zalo, Google Drive, Google Sheets).
-- Quyết định cuối: Go / Not Yet / No-Go
+- Quyết định cuối: Go
 
 ---
 
@@ -226,38 +226,44 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: **Độ mơ hồ thấp × Độ phức tạp trung bình** (góc dưới-trái, gần "Rule/Workflow").
 
 Vì sao:
+- **Độ mơ hồ thấp:** Câu hỏi của người dùng thường rõ ràng và cụ thể (ví dụ: "Bản báo cáo tuần trước ở đâu?", "Quyết định về X là gì?"). Không cần AI suy luận ý định phức tạp.
+- **Độ phức tạp trung bình:** Cần tìm kiếm xuyên nhiều nền tảng (Zalo, Drive, Sheets), hiểu ngữ cảnh để trả lời đúng câu hỏi, nhưng không cần ra quyết định hay thực hiện hành động tự động.
+- Vì vậy, **Workflow** là mức phù hợp nhất: AI làm phần tìm kiếm và tổng hợp, con người kiểm tra và quyết định.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Thống nhất quy ước đặt tên file, cấu trúc thư mục Drive, ghim tin nhắn quan trọng | Khi nhóm nhỏ, thông tin ít, mọi người tuân thủ quy ước | Không giải quyết được thông tin đã phân tán từ trước; phụ thuộc kỷ luật con người | Không chọn |
+| **Rule** | Webhook tự động gom link tài liệu và tin nhắn được gắn nhãn "quyết định" vào một Google Sheets chung | Khi thông tin có cấu trúc rõ (link, file) và không cần hiểu ngữ nghĩa | Không tìm được theo ý nghĩa (semantic search); vẫn phải biết từ khóa chính xác; không tổng hợp được câu trả lời | Không chọn (chỉ là bước nền) |
+| **Workflow** | Rule gom link vào bảng chung (chạy nền) + AI tìm kiếm ngữ nghĩa trong bảng và tài liệu, trả lời kèm nguồn; con người kiểm tra nguồn trước khi dùng | Khi cần tìm theo ý nghĩa, tổng hợp thông tin từ nhiều nguồn, nhưng con người vẫn kiểm soát kết quả | AI trả lời sai hoặc dẫn bản cũ; mọi người không gắn nhãn nên bảng thiếu thông tin; công cụ không đọc trực tiếp tin nhắn chat | **Chọn** |
+| **Agent** | AI tự động theo dõi các kênh, tự tổng hợp và trả lời câu hỏi phức tạp xuyên kênh mà không cần con người hỏi | Khi cần AI tự quyết định bước tiếp theo, tự hành động (gửi thông báo, cập nhật bảng) | Rủi ro tự động hóa cao; AI có thể tự ý gửi/chỉnh sửa tài liệu; khó kiểm soát; over-engineering cho bài toán này | Không chọn |
 
-**Mức chọn:**
+**Mức chọn:** Workflow
 
 **Vì sao không chọn mức đơn giản hơn:**
+- **No AI** không giải quyết được thông tin đã phân tán từ trước và phụ thuộc kỷ luật con người — nhóm sinh viên thường không tuân thủ quy ước đặt tên/ghim tin nhắn.
+- **Rule** chỉ gom link theo từ khóa, không thể tìm theo ý nghĩa ("quyết định về deadline là gì?" cần hiểu ngữ cảnh, không chỉ match từ khóa). Rule là bước nền (chạy nền gom link), nhưng không đủ để trả lời câu hỏi.
+- **Agent** là over-engineering: bài toán không cần AI tự quyết định hay tự hành động. Boundary rõ ràng: AI chỉ đọc, không sửa/xóa/gửi. Con người luôn kiểm tra nguồn trước khi dùng (HITL). Không có nhu cầu tự động hóa toàn bộ quy trình.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | AI tìm kiếm trong bảng chung (link tài liệu + tin nhắn được gắn nhãn) và tài liệu nhóm đã đưa vào, trả lời câu hỏi kèm link nguồn trích dẫn |
+| **Judgment** — con người cân nhắc, quyết định gì? | Người hỏi kiểm tra xem nguồn AI trích dẫn có đúng và là bản mới nhất không; quyết định có dùng thông tin đó hay không |
+| **Action** — hành động cuối cùng là gì, ai làm? | Người hỏi mở link nguồn, xác nhận nội dung, rồi sử dụng cho công việc/bài làm. AI không tự ý gửi hay sửa tài liệu |
+| **Outcome** — đo kết quả bằng gì? | Thời gian tìm tài liệu giảm từ 45 phút xuống dưới 5 phút/lần; không còn trường hợp dùng nhầm bản cũ |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Câu hỏi bằng ngôn ngữ tự nhiên từ người dùng; bảng chung (link + nhãn) được gom tự động bằng Rule; tài liệu nhóm đã đồng ý đưa vào (Google Docs, Sheets). Có sẵn nếu nhóm gắn nhãn tin nhắn |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Người dùng báo cáo khi AI trả lời sai hoặc dẫn bản cũ (qua form/tin nhắn). Nhóm cập nhật nhãn và bảng chung. Theo dõi số lần phải quay về cách cũ |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- **Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)?** **Augment (được hỗ trợ).** Bằng chứng: trong quy trình tương lai, bước 3 là con người (HITL) phải mở nguồn và kiểm tra trước khi dùng. Người dùng không giao hẳn việc cho AI — AI chỉ giúp tìm và tổng hợp, con người vẫn kiểm soát kết quả cuối cùng. Vì pain là "tìm không ra" chứ không phải "không muốn tìm".
+- **AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót?** **Báo nhầm (false positive) tệ hơn.** Vì sao: nếu AI trả lời sai kèm nguồn giả mạo, người dùng có thể dùng thông tin sai cho quyết định/bài nộp mà không biết. Bỏ sót (false negative) chỉ khiến người dùng phải tìm theo cách cũ (mất thời gian nhưng không sai). Thiết kế xử lý: AI **không trả lời khi không có nguồn** (boundary rõ ràng); luôn kèm link nguồn để người dùng tự kiểm tra; nếu không chắc, AI gợi ý "không tìm thấy, hãy thử tìm theo cách cũ".
 
 ---
 
@@ -265,29 +271,36 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Sinh viên làm đồ án theo nhóm (4-5 người), trao đổi qua Zalo, lưu file trên Google Drive, theo dõi việc trên Google Sheets |
+| **Quy trình** | Khi cần làm tiếp hoặc viết báo cáo: Rule gom link tài liệu và tin nhắn được gắn nhãn "quyết định" vào bảng chung (chạy nền) → Người hỏi gõ câu hỏi (1') → AI tìm trong bảng chung và tài liệu, trả lời kèm nguồn (1') → Người hỏi mở nguồn, kiểm tra đúng và là bản mới nhất (3') → Dùng cho công việc/bài làm |
+| **Bottleneck** | Bước kiểm tra nguồn (3 phút) — chấp nhận được vì đây là điểm kiểm soát chất lượng (HITL). Trước đây bottleneck là chờ người đã gửi trả lời (15 phút) |
+| **Impact** | Thời gian tìm tài liệu giảm từ 45 phút xuống dưới 5 phút/lần; không còn trường hợp dùng nhầm bản cũ; công việc không bị gián đoạn vì chờ người khác |
+| **Success Metric** (baseline → target, cách đo) | Baseline: 45 phút/lần tìm kiếm, 0% kiểm tra nguồn. Target: < 5 phút/lần, 100% kiểm tra nguồn trước khi dùng. Cách đo: thành viên tự ghi lại thời gian và số lần phải quay về cách cũ trong 2 tuần làm việc tiếp theo |
+| **Boundary** | AI chỉ đọc và trích xuất từ tài liệu nhóm đã đưa vào; không tự ý sửa, xóa hay gửi tài liệu; không tự chốt quyết định; không trả lời khi không có nguồn trích dẫn. Người hỏi bắt buộc phải mở link nguồn để kiểm tra nội dung trước khi đưa vào bài làm |
+| **AI intervention point** | Bước 2 (AI tìm kiếm ngữ nghĩa trong bảng chung và tài liệu, trả lời kèm nguồn). Bước 1 (Rule gom link) là bước nền chạy tự động, không phải AI |
+| **Mức chọn** | Workflow |
+| **Rủi do & người kiểm tra** | AI hallucinate hoặc dẫn bản cũ → boundary: không trả lời khi không có nguồn; HITL: người hỏi kiểm tra nguồn. Người kiểm tra: người hỏi (thành viên cần thông tin). Người vận hành: nhóm trưởng hoặc người được phân công gom link |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Quy trình | 7 bước thủ công (nhớ → tìm Zalo → tìm Drive → xem Sheets → hỏi → chờ → kiểm tra) | 3 bước (hỏi → AI tìm → kiểm tra nguồn) + Rule chạy nền | Thêm AI tìm kiếm ngữ nghĩa và Rule gom link, loại bỏ bước chờ người đã gửi |
+| Bottleneck | Chờ người đã gửi trả lời (15 phút) | Kiểm tra nguồn (3 phút) | AI thay thế bước tìm kiếm và chờ; con người chỉ kiểm tra |
+| Success Metric | Thời gian tìm tài liệu giảm từ 45 phút xuống dưới 5 phút | Thêm tiêu chí "không dùng nhầm bản cũ" và "100% kiểm tra nguồn" | Cần đo cả chất lượng (đúng bản) chứ không chỉ tốc độ |
+| Boundary | AI chỉ đọc/trích xuất; HITL kiểm tra | Thêm: AI không trả lời khi không có nguồn; không hallucinate; Rule gom link là bước nền | Cần boundary rõ ràng hơn cho AI và phân biệt Rule vs AI |
+| AI intervention point | (không có) | Bước 2 (AI tìm kiếm ngữ nghĩa) | v1 thêm trường này để chỉ rõ AI chen vào đâu |
+| Mức chọn | (không có) | Workflow | v1 thêm trường này sau khi so sánh 4 mức ở mục 6 |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Độ chính xác câu trả lời | AI trả lời đúng câu hỏi và trích dẫn đúng nguồn (link/file) liên quan | AI trả lời sai câu hỏi, trích dẫn sai nguồn, hoặc hallucinate thông tin không có trong tài liệu |
+| 2 | Tính đầy đủ | AI tìm được tất cả nguồn liên quan (không bỏ sót tài liệu quan trọng) | AI bỏ sót nguồn quan trọng, hoặc chỉ trả lời một phần câu hỏi |
+| 3 | An toàn (no hallucination) | AI không trả lời khi không có nguồn; trả lời "không tìm thấy" thay vì bịa | AI bịa câu trả lời hoặc trích dẫn nguồn giả mạo khi không có thông tin |
+| 4 | Tốc độ | Thời gian AI trả lời < 1 phút (không tính thời gian người dùng verify) | AI mất > 2 phút để trả lời, hoặc timeout |
+| 5 | Khả năng quay về | Khi AI sai, người dùng có thể dễ dàng tìm theo cách cũ (tìm từng nơi rồi hỏi người đã gửi) | Khi AI sai, người dùng không biết cách tìm theo cách cũ, hoặc mất nhiều thời gian hơn trước |
 
 ---
 
@@ -297,10 +310,30 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Thấp | Pain có thật: 45 phút/lần tìm tài liệu, xảy ra hàng tuần trong 8 tuần làm đồ án; 5/5 thành viên đều gặp; survey 8 người, 5/8 phải tổng hợp từ nhiều nguồn. Không phải pain giả định |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | AI trả lời kèm nguồn (link/file), người dùng phải mở và kiểm tra trước khi dùng (HITL). Giao diện đơn giản: gõ câu hỏi → nhận câu trả lời + nguồn. Không cần kỹ năng đặc biệt |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Trung bình | Dữ liệu: bảng chung (link + nhãn) cần nhóm gắn nhãn tin nhắn. Công cụ: Gemini Notebook / LLM API + Google Sheets. Kỹ năng: nhóm có sinh viên AI, biết dùng LLM API. Rủi ro: mọi người không gắn nhãn → bảng thiếu thông tin |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Thấp | Chi phí: Gemini Notebook miễn phí (hoặc LLM API chi phí thấp cho nhóm sinh viên). Pháp lý: chỉ đọc tài liệu nhóm tự đưa vào, không vi phạm bản quyền. Vận hành: nhóm trưởng hoặc người được phân công gom link và duy trì bảng chung |
+
+### 8.2. Kết luận
+
+**Quyết định:** Go (pilot nhỏ nhất)
+
+**Lý do:**
+Pain có thật và thường trực (45 phút/lần, hàng tuần, 5/5 thành viên). Giải pháp Workflow khả thi trong lab: Rule gom link (miễn phí) + AI tìm kiếm ngữ nghĩa (Gemini Notebook miễn phí). Boundary rõ ràng (AI chỉ đọc, không sửa/gửi, HITL kiểm tra nguồn). Rủi ro chủ yếu là feasibility (gắn nhãn) — có thể kiểm chứng và xử lý.
+
+**Nếu Go — pilot nhỏ nhất:**
+Thử nghiệm với 1 nhóm đồ án (nhóm mình) trong 2 tuần: gom link vào Google Sheets chung + dùng Gemini Notebook để tìm kiếm. Đo thời gian tìm tài liệu (baseline 45' → target < 5') và số lần phải quay về cách cũ.
+
+**Nếu Not Yet — cần kiểm chứng gì trước:**
+(Không áp dụng — nhóm chọn Go)
+
+**Nếu No-Go — nên làm gì thay AI:**
+(Không áp dụng — nhóm chọn Go)
+
+**Ngưỡng dừng** (nếu sau 2 tuần mà thời gian tìm tài liệu không giảm xuống dưới 15 phút/lần, hoặc hơn 50% câu hỏi AI không tìm được nguồn, thì quay về cách cũ: tìm từng nơi rồi hỏi người đã gửi, và cân nhắc giải pháp No AI (thống nhất quy ước đặt tên file + ghim tin nhắn)):
+
+---
 
 ### 8.2. Kết luận
 
@@ -320,7 +353,15 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- **Hạn chế:**
+  - Giải pháp phụ thuộc vào việc mọi thành viên gắn nhãn tin nhắn/quyết định (adoption là rào cản lớn). Nếu không gắn nhãn, bảng chung sẽ thiếu thông tin.
+  - Công cụ AI không đọc trực tiếp tin nhắn Zalo (chỉ đọc những gì được đưa vào notebook/bảng chung). Tin nhắn không được gom sẽ bị bỏ sót.
+  - Survey chỉ có 8 mẫu (nhỏ), chưa đủ để tổng quát hóa cho tất cả nhóm sinh viên.
+  - Chưa kiểm chứng thực tế với pilot (chỉ dừng ở mức thiết kế và metric kỳ vọng).
+- **Hướng tiếp theo:**
+  - Pilot 2 tuần với nhóm mình: gom link vào Google Sheets + dùng Gemini Notebook để tìm kiếm. Đo thời gian và số lần quay về cách cũ.
+  - Nếu pilot thành công, mở rộng cho các nhóm khác trong lớp.
+  - Nghiên cứu thêm cách tự động gom link từ Zalo (webhook/bot) để giảm phụ thuộc vào việc gắn nhãn thủ công.
 
 ## 10. Tài liệu tham khảo
 

@@ -6,7 +6,7 @@
 
 - Tên nhóm: AURA
 - Candidate problem nhóm chọn (1 câu): Khi thực hiện đồ án nhóm, các thành viên gặp khó khăn và mất nhiều thời gian khi tìm lại tài liệu, quyết định và thông tin quan trọng bị phân tán trên nhiều kênh (Zalo, Google Drive, Google Sheets).
-- Quyết định cuối (Go / Not Yet / No-Go): 
+- Quyết định cuối (Go / Not Yet / No-Go): Go 
 
 ## Thành viên
 
@@ -109,20 +109,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Scan problem (CP1): tự scan 7 problem từ trải nghiệm thật, trải đủ 4 lăng kính
 - Top 3 Problem Cards (CP2): viết Problem Card cho 3 candidate (Hypertuning AI Agent, Tổng hợp AI news từ X, Tổng hợp chi tiêu cuối tháng), vẽ quy trình nháp, phản biện card bằng AI
 - Pivot Problem Card #1 sang framing AI Agent (Zero-config tuning & Semantic early-stopping)
+- CP4 — Research: hỗ trợ tìm 6 công cụ/giải pháp đã có (Google Drive Search, Notion Wiki, Gemini Notebook, Glean, Slack Enterprise Search, Conclude)
+- CP6 — Mức can thiệp AI: ma trận, so sánh 4 mức, AI Canvas, PAIR, PS v1, Eval criteria
+- CP6 — Quyết định: 4 rủi ro + Go (pilot nhỏ nhất) + ngưỡng dừng
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 - Bảng scan 7 problem trong `report/individual/2A202603910_VuVanTruong.md` mục 2 (đạt tối thiểu C1, hướng tới bonus B1)
 - 3 Problem Card + quy trình nháp trong `report/individual/2A202603910_VuVanTruong.md` mục 3
 - Problem Card #1 (Hypertuning model) được nâng cấp từ Workflow sang Agent: Actor = ML Engineers/Researchers (Kaggle/Colab), giả thuyết AI = LLM Agent đọc code sinh search space + pruning sớm
 - Bảng phản biện card: 3 điểm yếu sát thủ (chi phí LLM API, độ trễ, hallucinate hyperparameter) và cách sửa
+- Research 6 công cụ giải pháp trong `group_report.md` mục 3.3
+- Điền Mục 6 (Ma trận, 4 mức, AI Canvas, PAIR), Mục 7 (PS v1 + 5 tiêu chí Eval), Mục 8 (4 rủi ro + Quyết định Go), Mục 9 (Hạn chế & hướng tiếp theo) trong `group_report.md`
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-- File: `report/individual/2A202603910_VuVanTruong.md` (mục 2-3)
-- Commit: `f97489c` "Add personal report: scan 7 problems, top 3 problem cards (hypertuning AI Agent)"
-- (CP3-CP6: sẽ cập nhật sau khi làm nhóm)
+- File cá nhân: `report/individual/2A202603910_VuVanTruong.md` (mục 2-3)
+- Commit cá nhân: `f97489c` "Add personal report: scan 7 problems, top 3 problem cards (hypertuning AI Agent)"
+- group_report.md: Mục 3.3 (research), Mục 6 (mức can thiệp AI), Mục 7 (PS v1 + Eval), Mục 8 (quyết định Go), Mục 9 (hạn chế & hướng tiếp theo)
 
 **Điều mình học được từ phần nhóm:**
-- (Sẽ điền sau khi hoàn thành CP3-CP6)
+- Học được cách hội tụ từ 15 candidate (3 problem × 5 thành viên) về 1 candidate bằng cây OST và bảng chấm điểm, thay vì bỏ phiếu ngay.
+- Hiểu rõ sự khác biệt giữa Rule, Workflow, Agent và cách chọn mức can thiệp đơn giản nhất đủ dùng.
+- Nhận ra Candidate #10 (Hypertuning) bị loại vì over-engineering và khó kiểm chứng trong lab — bài học về "vừa sức lab" quan trọng hơn "ngầu".
+- Hiểu rằng boundary và HITL là yếu tố then chốt khi thiết kế AI intervention, không chỉ là chọn công nghệ.
 
 ---
 
