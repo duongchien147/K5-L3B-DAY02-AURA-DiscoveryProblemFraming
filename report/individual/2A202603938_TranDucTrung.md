@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên: Trần Đức Trung
-- MSSV: 2A_202603938
+- MSSV: 2A202603938
 - Email trường (không bắt buộc, repo có thể để public): ____________________
 - Tên nhóm: ____________________
 - Link repo nhóm: ____________________
