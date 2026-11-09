@@ -15,7 +15,7 @@
 | 1 | Dương Minh Chiến | 2A202603921 | Nhóm trưởng, điều phối, viết Problem Statement | duongchien147 |
 | 2 | Trần Đức Trung | 2A202603938 | Người phản biện chính, phụ trách research giải pháp | kientrungtd135 |
 | 3 | Trịnh Hưng Thịnh | 2A202603907 | Phụ trách kiểm chứng, ghi chép | TrnhThnh |
-| 4 | Vũ Văn Trường | 2A202603910 | Đánh giá mức độ can thiệp AI, thiết lập Eval | tini-vu |
+| 4 | Vũ Văn Trường | 2A202603910 | Đánh giá mức độ can thiệp AI, thiết lập Eval | Sz3RO |
 | 5 | Lưu Nguyễn Chí Đức | 2A202603923 | Vẽ sơ đồ quy trình trước/sau, rà soát | TheDLCrimson |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
