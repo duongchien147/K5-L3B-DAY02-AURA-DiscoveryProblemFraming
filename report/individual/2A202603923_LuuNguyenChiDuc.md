@@ -164,10 +164,8 @@ HIỆN TẠI - 5 bước, cho tin đầu tiên khoảng 75-115 phút (ước tí
 |---|---|---|---|---|
 | CP1 Scan | Đặt câu hỏi gợi nhớ và viết lại các pain của tôi thành Job Story | Giúp tôi nhớ ra pain thật và tách vấn đề khỏi giải pháp | Gợi ý "lịch lab trùng workshop", trong khi tôi đã theo dõi lịch bằng calendar | Bỏ ý đó vì không phải pain thật |
 | CP2 Problem Card | Soạn card từ số liệu tôi đưa và đóng vai PM hoài nghi | Chỉ ra baseline dựa trên trí nhớ và thiếu tỉ lệ JD đọc so với CV gửi | Ngoại suy 7,5 giờ cho 6 lab; đề xuất target chờ dưới 2 giờ; chọn No AI cho Card 2 | Bỏ phép ngoại suy; đổi metric sang số lần phải dừng việc vì chờ qua ngày là bình thường; đổi sang Rule vì mọi người không chịu cập nhật Trello |
-| CP4 Research | Kiểm tra các link và đối chiếu số liệu survey | Phát hiện "3/8 nói template là đủ" không có trong dữ liệu survey | Khi chưa có file dữ liệu, chỉ so được phần 3.2 với bài mẫu | Tôi đưa file survey để đối chiếu; giữ số 5/8 đúng và sửa phần không khớp |
 | CP5 Quy trình | Soạn sơ đồ và bảng từ số phút tôi đưa | Tách bước và lập bảng before/after nhanh | Bản đầu ngầm hiểu nhóm tự xây công cụ tìm kiếm | Đổi bước AI sang công cụ có sẵn theo research của Trung; ghi rõ số phút là ước tính |
 | CP5–6 Problem Statement | Rà soát Problem Statement v0 và v1 | Chỉ ra "0% kiểm tra nguồn" không có nguồn và mâu thuẫn với bước 7 của quy trình hiện tại | Chỉ đối chiếu được trên văn bản, không biết nhóm đã thảo luận gì | Chỉ sửa các dòng không khớp, giữ nội dung của các bạn |
-| CP6 Mức can thiệp / quyết định | Rà soát mục 8 | Chỉ ra mức Value Thấp chưa khớp với bằng chứng đã có | Cho rằng có thể phải đổi Go sang Not Yet | Giữ Go ở mức pilot nhỏ vì không có rủi ro mức Cao, đổi Value sang Trung bình |
 
 ---
 
@@ -177,24 +175,35 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Phần lớn lúc nghe tôi chỉ thấy "giống mình", vì cả nhóm có nền tảng khá giống nhau.
+Có việc tôi đã đưa AI vào, có việc tôi chỉ chịu đựng cho xong.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
 Có.
-Bản thân tôi khi nghĩ về hợp đồng thuê nhà đã nói ngay là muốn có thứ đọc hộ và chỉ ra điều khoản bất lợi, tức là nói giải pháp trước, sau đó tôi viết lại thành nhu cầu biết điều khoản nào bất lợi cho mình.
-Ở phần nhóm, cây OST đã gạch bỏ các ý như chatbot tra cứu tài liệu trên Zalo, vì đó là giải pháp đội lốt opportunity.
+Khi nghĩ về hợp đồng thuê nhà, tôi nói ngay là muốn có thứ đọc hộ, tức là nói giải pháp trước, sau đó tôi viết lại thành nhu cầu biết điều khoản nào bất lợi.
+Ở phần nhóm, cây OST đã gạch bỏ các ý như chatbot tra cứu tài liệu.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
 Có.
-Card 2 về bàn giao task ban đầu đặt mục tiêu rút thời gian chờ từ cả ngày xuống dưới 2 giờ.
-Khi bị phản biện rằng "cả ngày" làm baseline bị thổi phồng, tôi nhận ra chờ sang hôm sau là chuyện bình thường trong dự án, còn điều thật sự làm tôi mất thời gian là phải dừng việc đang làm để giải thích hoặc hẹn lại.
-Vì vậy tôi đổi metric sang số lần phải dừng việc hoặc hẹn lại.
+Card 2 ban đầu đặt mục tiêu rút thời gian chờ từ cả ngày xuống dưới 2 giờ.
+Khi bị phản biện, tôi nhận ra chờ sang hôm sau là bình thường, điều thật sự mất thời gian là phải dừng việc để giải thích hoặc hẹn lại, nên tôi đổi metric sang số lần đó.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Không.
+Survey cho thấy 6/8 người thường xuyên tham gia tổng hợp báo cáo, đúng như tôi nghĩ.
+Trong ngành công nghệ, không phải tham gia những việc này mới là lạ.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là có quá nhiều nền tảng và công cụ phải theo dõi và cập nhật: kênh chat, nơi lưu file, bảng task.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Tôi sẽ cố gắng làm nhóm trưởng nếu có thể, để cả nhóm thỏa hiệp ngay từ đầu, đặt quy tắc rõ ràng, có thưởng có phạt.
+Điểm tôi muốn phản biện mạnh hơn là việc giữ các quy tắc đó.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 

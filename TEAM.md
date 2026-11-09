@@ -155,4 +155,5 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Học được cách áp dụng Double Diamond: mở rộng để tìm vấn đề rồi mới thu hẹp và đào sâu vào một vài vấn đề, và có thể dùng cách này cho nhiều việc khác.
+- Đôi khi không đưa AI vào quy trình lại là lựa chọn tốt, không phải việc gì cũng cần tối ưu theo cách đó.
