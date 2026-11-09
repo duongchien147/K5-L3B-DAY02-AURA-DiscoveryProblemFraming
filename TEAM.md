@@ -4,18 +4,19 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: AURA
+- Candidate problem nhóm chọn (1 câu): Khi thực hiện đồ án nhóm, các thành viên gặp khó khăn và mất nhiều thời gian khi tìm lại tài liệu, quyết định và thông tin quan trọng bị phân tán trên nhiều kênh (Zalo, Google Drive, Google Sheets).
+- Quyết định cuối (Go / Not Yet / No-Go): 
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Dương Minh Chiến | 2A202603921 | Nhóm trưởng, điều phối, viết Problem Statement | duongchien147 |
+| 2 | Trần Đức Trung | 2A202603938 | Người phản biện chính, phụ trách research giải pháp | kientrungtd135 |
+| 3 | Trịnh Hưng Thịnh | 2A202603907 | Phụ trách kiểm chứng, ghi chép | TrnhThnh |
+| 4 | Vũ Văn Trường | 2A202603910 | Đánh giá mức độ can thiệp AI, thiết lập Eval | tini-vu |
+| 5 | Lưu Nguyễn Chí Đức | 2A202603923 | Vẽ sơ đồ quy trình trước/sau, rà soát | TheDLCrimson |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,31 +26,118 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Dương Minh Chiến | Cả nhóm | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Trịnh Hưng Thịnh | Dương Minh Chiến | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Trần Đức Trung | Vũ Văn Trường | Bảng research có link |
+| CP5 — Quy trình trước/sau | Lưu Nguyễn Chí Đức | Dương Minh Chiến | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Dương Minh Chiến | Lưu Nguyễn Chí Đức | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Vũ Văn Trường | Dương Minh Chiến | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Cả nhóm | Dương Minh Chiến | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### DuongMinhChien-2A202603921
 
 **Phần việc phụ trách:**
 
--
+- Nhóm trưởng, điều phối tiến độ chung, viết Problem Statement v0/v1
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603921_DuongMinhChien.md`)
+- Pitch candidate #2, tổng hợp bảng pitch 15 cards và chủ trì buổi họp CP3
+- Viết Problem Statement v0 và v1 trong `group_report.md`
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
+- Mục 2.1, 2.4, 5, 7 trong `group_report.md`
+
+**Điều mình học được từ phần nhóm:**
+
 -
+
+---
+
+### TranDucTrung-2A202603938
+
+**Phần việc phụ trách:**
+
+- Người phản biện chính, phụ trách research giải pháp có sẵn (CP4)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603938_TranDucTrung.md`)
+- Đặt câu hỏi phản biện các candidate trong CP3
+- Tìm kiếm và đối chiếu 2–3 công cụ giải pháp đã có trên thị trường
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Mục 3.3 trong `group_report.md`
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+---
+
+### TrinhHungThinh-2A202603907
+
+**Phần việc phụ trách:**
+
+- Phụ trách kiểm chứng thực tế (Assumption map, phỏng vấn / survey CP4), ghi chép
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603907_TrinhHungThinh.md`)
+- Xây dựng Assumption Map và thực hiện phỏng vấn sinh viên theo The Mom Test
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Mục 3.1, 3.2 trong `group_report.md`
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+---
+
+### VuVanTruong-2A202603910
+
+**Phần việc phụ trách:**
+
+- Đánh giá mức độ can thiệp AI (Rule/Workflow/Agent), AI Canvas, thiết lập Eval (CP6)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603910_VuVanTruong.md`)
+- Phân tích ma trận độ mơ hồ × phức tạp, xây dựng bộ tiêu chí Eval cho giải pháp
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Mục 6.1, 6.2, 6.3 trong `group_report.md`
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+---
+
+### LuuNguyenChiDuc-2A202603923
+
+**Phần việc phụ trách:**
+
+- Vẽ sơ đồ quy trình trước / sau (CP5), tính toán before/after, rà soát chất lượng
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603923_LuuNguyenChiDuc.md`)
+- Vẽ sơ đồ quy trình hiện tại vs tương lai, đánh dấu bottleneck và human-in-the-loop
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Mục 4.1, 4.2, 4.3 trong `group_report.md`
 
 **Điều mình học được từ phần nhóm:**
 
