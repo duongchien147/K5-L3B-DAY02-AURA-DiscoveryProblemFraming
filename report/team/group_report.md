@@ -335,22 +335,6 @@ Thử nghiệm với 1 nhóm đồ án (nhóm mình) trong 2 tuần: gom link v�
 
 ---
 
-### 8.2. Kết luận
-
-**Quyết định:** Go / Not Yet / No-Go
-
-**Lý do:**
-
-**Nếu Go — pilot nhỏ nhất:**
-
-**Nếu Not Yet — cần kiểm chứng gì trước:**
-
-**Nếu No-Go — nên làm gì thay AI:**
-
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
-
----
-
 ## 9. Hạn chế và hướng tiếp theo
 
 - **Hạn chế:**
