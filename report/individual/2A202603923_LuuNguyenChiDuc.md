@@ -145,16 +145,16 @@ HIỆN TẠI - 5 bước, cho tin đầu tiên khoảng 75-115 phút (ước tí
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card: #13 nộp bài lab, #14 cập nhật trạng thái task, #15 tìm việc | #13 vào shortlist, đứng thứ hai với 31 điểm |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: với #1 của Chiến, "Nếu nhóm chỉ cần quy định 1 bảng Kanban/Trello cố định và cam kết cập nhật hằng ngày lúc 18h thì đã giải quyết được chưa, tại sao vẫn cần AI?"; với #9 của Thịnh, "Tiêu chí ưu tiên ticket có thể viết thành rule cứng (như deadline + severity) được không, hay bắt buộc phải có AI phán đoán?"; với #11 của Trường, "Ai ngoài bạn chịu ảnh hưởng trực tiếp từ việc này? Nếu không đọc news mỗi sáng thì có gây hậu quả đo đạc được (impact) ngay không?" | Ba candidate này đều không vào shortlist của nhóm |
+| Nhận phản biện | Câu hỏi tôi nhận được: với #13, Chiến hỏi một script kiểm tra tên file và thư mục có giải quyết 100% không; với #14, Thịnh hỏi definition-of-done và pull request/commit tag đã giải quyết được việc chờ chưa; với #15, Trường hỏi bước nghẽn thật là dò tin hay đọc JD | Tôi đã sửa gì: #13 ghi cảm nhận nhanh là Rule, và nhóm loại #13 vì Rule là đủ; #14 ghi hướng trạng thái tự cập nhật từ commit; #15 giữ dò tin là bottleneck chính và ghi thêm bước đọc, đánh giá JD là bottleneck thứ hai |
+| Gom cluster / cây OST | Theo phân công trong `TEAM.md`, Chiến phụ trách chính, cả nhóm hỗ trợ | Cây OST gạch bỏ các ý là giải pháp, ví dụ chatbot tra cứu tài liệu |
+| Chọn candidate problem | Candidate #13 của tôi vào shortlist cùng #2 và #10 | Nhóm chọn #2 với 34 điểm; #13 bị loại vì Rule là đủ |
+| Kiểm chứng / research | Thịnh phụ trách survey, Trung và Trường phụ trách research; tôi rà soát mục 3.2 và đối chiếu với dữ liệu 8 phản hồi của survey | Sửa dòng tổng hợp cho khớp dữ liệu và ghi rõ survey chưa hỏi trực tiếp việc tìm lại tài liệu |
+| Quy trình nhóm | Phụ trách chính mục 4: quy trình hiện tại 7 bước với số phút từ một lần tìm thật của tôi, quy trình tương lai và bảng before/after | Bottleneck là bước chờ người đã gửi trả lời, 15 trong 45 phút; nhóm dùng làm đầu vào cho Problem Statement |
+| Problem Statement | Hỗ trợ Chiến; số phút và bottleneck ở mục 4 là đầu vào của v0 | v0 dùng baseline 45 phút và bước chờ làm bottleneck |
+| Mức can thiệp AI | Trường phụ trách chính; quy trình tương lai ở mục 4.2 là phương án Workflow được so sánh | Nhóm chọn Workflow |
+| Quyết định | Cả nhóm; tôi rà soát mục 8 | Value đổi từ Thấp sang Trung bình vì baseline chưa được kiểm chứng; quyết định Go ở mức pilot nhỏ được giữ nguyên |
 
 ---
 
@@ -162,12 +162,12 @@ HIỆN TẠI - 5 bước, cho tin đầu tiên khoảng 75-115 phút (ước tí
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Đặt câu hỏi gợi nhớ và viết lại các pain của tôi thành Job Story | Giúp tôi nhớ ra pain thật và tách vấn đề khỏi giải pháp | Gợi ý "lịch lab trùng workshop", trong khi tôi đã theo dõi lịch bằng calendar | Bỏ ý đó vì không phải pain thật |
+| CP2 Problem Card | Soạn card từ số liệu tôi đưa và đóng vai PM hoài nghi | Chỉ ra baseline dựa trên trí nhớ và thiếu tỉ lệ JD đọc so với CV gửi | Ngoại suy 7,5 giờ cho 6 lab; đề xuất target chờ dưới 2 giờ; chọn No AI cho Card 2 | Bỏ phép ngoại suy; đổi metric sang số lần phải dừng việc vì chờ qua ngày là bình thường; đổi sang Rule vì mọi người không chịu cập nhật Trello |
+| CP4 Research | Kiểm tra các link và đối chiếu số liệu survey | Phát hiện "3/8 nói template là đủ" không có trong dữ liệu survey | Khi chưa có file dữ liệu, chỉ so được phần 3.2 với bài mẫu | Tôi đưa file survey để đối chiếu; giữ số 5/8 đúng và sửa phần không khớp |
+| CP5 Quy trình | Soạn sơ đồ và bảng từ số phút tôi đưa | Tách bước và lập bảng before/after nhanh | Bản đầu ngầm hiểu nhóm tự xây công cụ tìm kiếm | Đổi bước AI sang công cụ có sẵn theo research của Trung; ghi rõ số phút là ước tính |
+| CP5–6 Problem Statement | Rà soát Problem Statement v0 và v1 | Chỉ ra "0% kiểm tra nguồn" không có nguồn và mâu thuẫn với bước 7 của quy trình hiện tại | Chỉ đối chiếu được trên văn bản, không biết nhóm đã thảo luận gì | Chỉ sửa các dòng không khớp, giữ nội dung của các bạn |
+| CP6 Mức can thiệp / quyết định | Rà soát mục 8 | Chỉ ra mức Value Thấp chưa khớp với bằng chứng đã có | Cho rằng có thể phải đổi Go sang Not Yet | Giữ Go ở mức pilot nhỏ vì không có rủi ro mức Cao, đổi Value sang Trung bình |
 
 ---
 
@@ -179,7 +179,16 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có.
+Bản thân tôi khi nghĩ về hợp đồng thuê nhà đã nói ngay là muốn có thứ đọc hộ và chỉ ra điều khoản bất lợi, tức là nói giải pháp trước, sau đó tôi viết lại thành nhu cầu biết điều khoản nào bất lợi cho mình.
+Ở phần nhóm, cây OST đã gạch bỏ các ý như chatbot tra cứu tài liệu trên Zalo, vì đó là giải pháp đội lốt opportunity.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có.
+Card 2 về bàn giao task ban đầu đặt mục tiêu rút thời gian chờ từ cả ngày xuống dưới 2 giờ.
+Khi bị phản biện rằng "cả ngày" làm baseline bị thổi phồng, tôi nhận ra chờ sang hôm sau là chuyện bình thường trong dự án, còn điều thật sự làm tôi mất thời gian là phải dừng việc đang làm để giải thích hoặc hẹn lại.
+Vì vậy tôi đổi metric sang số lần phải dừng việc hoặc hẹn lại.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
@@ -189,8 +198,18 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Bài toán của nhóm là sinh viên làm đồ án nhóm khó tìm lại tài liệu và quyết định vì thông tin nằm rải rác ở nhiều kênh.
+Quy trình hiện tại có 7 bước, ước tính khoảng 45 phút mỗi lần, và bước nghẽn là chờ người đã gửi trả lời.
+Metric là giảm thời gian tìm từ khoảng 45 phút xuống dưới 5 phút mỗi lần và không dùng nhầm bản cũ, đo bằng tự ghi giờ trong 2 tuần.
+Boundary là AI chỉ đọc, không sửa, xóa hay gửi tài liệu, không trả lời khi không có nguồn, và người hỏi phải mở nguồn kiểm tra trước khi dùng.
+Nhóm chọn mức Workflow: Rule gom link về bảng chung, AI tìm và trả lời kèm nguồn, con người kiểm tra.
+No AI và Rule chưa đủ vì không tìm được theo ý nghĩa, còn Agent là thừa vì không cần AI tự hành động.
+Quyết định là Go ở mức pilot nhỏ trong 2 tuần, và dừng nếu thời gian không giảm xuống dưới 15 phút mỗi lần hoặc hơn 50% câu hỏi không tìm được nguồn.
+Baseline 45 phút mới là ước tính, nên pilot phải đo lại.
+
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Các framework của lab: [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md).
+- Các công cụ đã research: mục 3.3 và mục 10 của `report/team/group_report.md`.

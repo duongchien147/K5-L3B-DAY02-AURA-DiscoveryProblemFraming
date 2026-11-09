@@ -146,11 +146,12 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603923_LuuNguyenChiDuc.md`)
-- Vẽ sơ đồ quy trình hiện tại vs tương lai, đánh dấu bottleneck và human-in-the-loop
+- Vẽ sơ đồ quy trình hiện tại vs tương lai, đánh dấu bottleneck và human-in-the-loop, lập bảng before/after
+- Rà soát báo cáo nhóm: đối chiếu mục 3.2 với dữ liệu survey, sửa các dòng không khớp, đổi mức rủi ro Value theo bằng chứng, bổ sung tài liệu tham khảo
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- Mục 4.1, 4.2, 4.3 trong `group_report.md`
+- Mục 4.1, 4.2, 4.3 trong `group_report.md`, commit `434a934`
 
 **Điều mình học được từ phần nhóm:**
 

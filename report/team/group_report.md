@@ -32,7 +32,7 @@
 | 12 | Vũ Văn Trường | Khi đến cuối tháng, tôi muốn tổng hợp và phân loại chi tiêu từ app ngân hàng thành 4 nhóm, để biết tiền đi đâu và phát hiện khoản bất thường | Sinh viên quản lý chi tiêu (cá nhân) | Mở app ngân hàng, tải giao dịch và phân loại thủ công vào 4 nhóm (~3 giờ/tháng) | "Các app ngân hàng hoặc app quản lý chi tiêu như Money Lover đã có biểu đồ tự động phân loại danh mục chi tiêu, sao không dùng giải pháp đó?" *(Minh Chiến hỏi)* |
 | 13 | Lưu Nguyễn Chí Đức | Khi vừa làm xong lab và sắp tới hạn nộp, tôi muốn biết chính xác phải nộp file gì và đặt tên thế nào, để không mất điểm vì sai quy trình | Học viên làm lab (AI20K) | Đưa file vào đúng thư mục và tự kiểm tra đối chiếu lại từng file sát giờ nộp (15'/lần nộp) | "Khâu nộp bài chỉ diễn ra sát hạn nộp mỗi tuần 1 lần, một script bash/powershell kiểm tra tên file và thư mục có thể giải quyết 100% không, có cần đến AI không?" *(Minh Chiến hỏi)* |
 | 14 | Lưu Nguyễn Chí Đức | Khi nhóm làm nhiều task song song và có task phụ thuộc nhau, tôi muốn biết task nào đã xong để bắt đầu phần tiếp theo, tránh phải nhắn hỏi mỗi ngày | Thành viên nhóm dự án (4 người) | Chờ người trước phản hồi và giải thích bàn giao (mất 40+ phút/lần, có khi chờ cả ngày) | "Nếu nhóm quy định rõ definition-of-done và gửi pull request/commit tag lên GitHub để tự thông báo thì đã giải quyết được việc chờ chưa?" *(Hưng Thịnh hỏi)* |
-| 15 | Lưu Nguyễn Chí Đức | Khi tìm việc trên nhiều trang tuyển dụng, tôi muốn biết nhanh tin nào hợp CV, để dành thời gian ứng tuyển vào đúng việc | Sinh viên tìm việc làm | Dò tin trên 5–7 trang và đọc chi tiết từng JD để đối chiếu với CV (35–60'/tin) | "Bước nghẽn thật sự là do bạn phải vào 5–7 website dò tin thủ công, hay do việc đọc chi tiết từng JD để đối chiếu với CV?" *(Văn Trường hỏi)* |
+| 15 | Lưu Nguyễn Chí Đức | Khi tìm việc trên nhiều trang tuyển dụng, tôi muốn biết nhanh tin nào hợp CV, để dành thời gian ứng tuyển vào đúng việc | Sinh viên tìm việc làm | Dò tin trên 5–7 trang (20–60'/lần) và đọc chi tiết từng JD để đối chiếu với CV (35'/tin) | "Bước nghẽn thật sự là do bạn phải vào 5–7 website dò tin thủ công, hay do việc đọc chi tiết từng JD để đối chiếu với CV?" *(Văn Trường hỏi)* |
 
 ### 2.2. Cluster
 
@@ -40,15 +40,15 @@
 |---|---|---|
 | A (Quản lý thông tin & Phối hợp nhóm đồ án) | #1, #2, #3, #7, #8, #9, #14 | Thông tin, tiến độ, báo cáo và tài liệu bị phân tán trên nhiều kênh rời rạc (Zalo, Drive, Sheets), phụ thuộc giao tiếp thủ công làm mất thời gian tìm kiếm và theo dõi. |
 | B (Hỗ trợ học tập, nghiên cứu & Nộp bài) | #4, #5, #13, #15 | Tốn nhiều thời gian đọc lướt, tổng hợp và đối chiếu tài liệu dài (paper, rubric đồ án, quy định nộp bài lab, JD tuyển dụng) với các tiêu chí/yêu cầu đặt ra. |
-| C (Tối ưu hóa quy trình kỹ thuật AI / Vận hành) | #6, #10, #11, #12 | Các tác vụ kỹ thuật lặp lại cần xử lý nhiều dữ liệu hoặc tiêu tốn tài nguyên tính toán (hypertune model, phân loại ticket sản xuất, theo dõi log thí nghiệm, tổng hợp news). |
+| C (Tối ưu hóa quy trình kỹ thuật AI / Vận hành) | #6, #10, #11, #12 | Các tác vụ kỹ thuật lặp lại cần xử lý nhiều dữ liệu hoặc tiêu tốn tài nguyên tính toán (hypertune model, phân loại chi tiêu, theo dõi log thí nghiệm, tổng hợp news). |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Giảm thời gian lãng phí vào các tác vụ tìm kiếm, xác nhận thông tin và phối hợp trong nhóm làm đồ án từ 60 phút/tuần xuống dưới 15 phút/tuần
-├── Opportunity A: Thông tin, quyết định quan trọng và tài liệu bị trôi và phân tán rải rác trên Zalo, Drive, Sheets
+OUTCOME: Giảm thời gian lãng phí vào các tác vụ tìm kiếm, xác nhận thông tin và phối hợp trong nhóm làm đồ án từ khoảng 45 phút/lần (ước tính) xuống dưới 5 phút/lần
+├── Opportunity A: Thông tin, quyết định quan trọng và tài liệu bị trôi và phân tán rải rác trên nhiều kênh chat và nơi lưu trữ
 ├── Opportunity B: Mất thời gian hỏi từng thành viên để cập nhật tiến độ công việc và trạng thái task
 └── Opportunity C: Khó đối chiếu và phát hiện các task phụ thuộc nhau bị tắc nghẽn trước hạn nộp
 ```
@@ -80,7 +80,7 @@ Candidate #2 — Khó tìm lại tài liệu, quyết định và nội dung tra
    - *Agent:* Tự động tổng hợp và trả lời câu hỏi phức tạp xuyên kênh.
 
 **Vì sao loại các candidate còn lại:**
-- **Loại Candidate #13 (Kiểm tra file nộp lab):** Mức can thiệp đơn giản nhất là *Rule* (script PowerShell/Bash kiểm tra tên file và thư mục) đã có thể giải quyết triệt để 90–100%. Nếu dùng AI sẽ là over-engineering; hơn nữa tần suất phát sinh thấp (chỉ vài phút cuối tuần).
+- **Loại Candidate #13 (Kiểm tra file nộp lab):** Mức can thiệp đơn giản nhất là *Rule* (script PowerShell/Bash kiểm tra tên file và thư mục) đã có thể giải quyết triệt để 90–100%. Nếu dùng AI sẽ là over-engineering; hơn nữa phần có thể cải thiện chủ yếu là bước kiểm tra file, khoảng 15 phút mỗi lần nộp.
 - **Loại Candidate #10 (Hypertuning model AI):** Đòi hỏi tài nguyên tính toán GPU lớn, thời gian train kéo dài nhiều giờ khiến việc kiểm chứng và đo đạc trong khuôn khổ buổi lab không khả thi; rủi ro ảo giác (hallucination) tham số lớn.
 
 **Xử lý bất đồng (nếu có):**
@@ -102,7 +102,7 @@ Ban đầu có thành viên muốn chọn Candidate #10 vì hứng thú với kh
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: giả định 1-5, về việc tổng hợp báo cáo, bằng một survey 8 người.
 
 ### 3.2. Kiểm chứng
 
@@ -123,9 +123,9 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-|Survey |8 |5/8 phải tổng hợp từ nhiều nguồn |3 /8 nói template là đủ |
+|Survey (Google Form, 09/11/2026) |8 |6/8 thường xuyên tham gia tổng hợp báo cáo; 5/8 nói khó nhất là thu thập báo cáo từ nhiều nguồn; 7/8 gặp thiếu thông tin hoặc báo cáo trễ ở mức thường xuyên hoặc thỉnh thoảng |2/8 nói việc tổng hợp thủ công không ảnh hưởng hoặc ảnh hưởng ít; 1/8 hiếm khi gặp thiếu thông tin hoặc báo cáo trễ; 3/8 gặp khó ở định dạng hoặc độ chính xác, không phải ở việc thu thập từ nhiều nguồn |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Survey hỏi về việc tổng hợp báo cáo, chưa hỏi trực tiếp việc tìm lại tài liệu và quyết định, nên nhóm chưa có đủ cơ sở để đổi problem. Nhóm ghi rõ giới hạn này: baseline 45 phút/lần vẫn là ước tính, rủi ro Value được đánh giá ở mức Trung bình (mục 8.1), và pilot 2 tuần phải đo lại trước khi mở rộng.
 
 ### 3.3. Research giải pháp đã có
 
@@ -135,7 +135,7 @@ Tổng hợp:
 | **Notion Wiki** | [notion.com/help/wikis](https://www.notion.com/help/wikis-and-verified-pages) | Tập trung quyết định, biên bản họp, đường dẫn tài liệu vào 1 workspace | Dễ tổ chức theo dự án; search built-in; cập nhật nội dung chung | Thành viên phải chủ động cập nhật; thông tin trên Zalo/Drive không tự động gom | Cần thống nhất nơi lưu trữ thông tin quan trọng và quy định người chịu trách nhiệm cập nhật |
 | **Gemini Notebook (NotebookLM)** | [support.google.com/gemininotebook](https://support.google.com/gemininotebook/answer/16215270) | Tìm kiếm, tổng hợp và trả lời câu hỏi từ Docs, Sheets, PDF đã đưa vào notebook | Hỏi đáp bằng ngôn ngữ tự nhiên; tổng hợp nhiều tài liệu; trích dẫn nguồn | Cần lựa chọn nguồn; không tự động bao phủ tin nhắn Zalo; câu trả lời AI cần kiểm chứng | Thử nghiệm AI trên tập tài liệu nhỏ, so sánh thời gian và độ chính xác với tìm kiếm thủ công |
 | **Glean** — AI enterprise search | [glean.com](https://www.glean.com) | Tìm kiếm ngữ nghĩa xuyên nhiều app (Drive, Slack, Notion, Jira...) | Trả lời có trích dẫn; hiểu ngữ cảnh; tích hợp nhiều app | Enterprise-grade, giá cao; không phù hợp nhóm sinh viên; cần IT setup | AI search xuyên kênh là khả thi, nhưng cần giải pháp nhẹ hơn cho nhóm nhỏ |
-| **Slack Enterprise Search** | [slack.com/features/enterprise-search](https://slack.com/intl/zh-cn/features/enterprise-search) | Tìm kiếm xuyên các hệ thống đã kết nối (Drive, GitHub, Jira...) ngay trong Slack | Tích hợp sẵn trong Slack; không cần chuyển app; AI tóm tắt kết quả | Chỉ Enterprise Grid + Slack AI license; không hỗ trợ Zalo; đắt | Nếu nhóm dùng Slack thì search xuyên kênh đã có sẵn — nhưng nhóm SV VN dùng Zalo/Drive |
+| **Slack Enterprise Search** | [slack.com/features/enterprise-search](https://slack.com/features/enterprise-search) | Tìm kiếm xuyên các hệ thống đã kết nối (Drive, GitHub, Jira...) ngay trong Slack | Tích hợp sẵn trong Slack; không cần chuyển app; AI tóm tắt kết quả | Chỉ Enterprise Grid + Slack AI license; không hỗ trợ Zalo; đắt | Nếu nhóm dùng Slack thì search xuyên kênh đã có sẵn — nhưng nhóm SV VN dùng Zalo/Drive |
 | **Conclude** (cross-platform Slack↔Teams) | [conclude.app](https://conclude.app) | Kết nối Slack và Teams, đồng bộ kênh chat giữa các nền tảng | Giải quyết phân mảnh giữa 2 nền tảng lớn nhất | Chỉ Slack↔Teams, không hỗ trợ Zalo/Drive; enterprise pricing | Cross-platform bridging đúng hướng, nhưng chưa cover hệ sinh thái SV VN |
 
 ---
@@ -275,11 +275,11 @@ Vì sao:
 | **Quy trình** | Khi cần làm tiếp hoặc viết báo cáo: Rule gom link tài liệu và tin nhắn được gắn nhãn "quyết định" vào bảng chung (chạy nền) → Người hỏi gõ câu hỏi (1') → AI tìm trong bảng chung và tài liệu, trả lời kèm nguồn (1') → Người hỏi mở nguồn, kiểm tra đúng và là bản mới nhất (3') → Dùng cho công việc/bài làm |
 | **Bottleneck** | Bước kiểm tra nguồn (3 phút) — chấp nhận được vì đây là điểm kiểm soát chất lượng (HITL). Trước đây bottleneck là chờ người đã gửi trả lời (15 phút) |
 | **Impact** | Thời gian tìm tài liệu giảm từ 45 phút xuống dưới 5 phút/lần; không còn trường hợp dùng nhầm bản cũ; công việc không bị gián đoạn vì chờ người khác |
-| **Success Metric** (baseline → target, cách đo) | Baseline: 45 phút/lần tìm kiếm, 0% kiểm tra nguồn. Target: < 5 phút/lần, 100% kiểm tra nguồn trước khi dùng. Cách đo: thành viên tự ghi lại thời gian và số lần phải quay về cách cũ trong 2 tuần làm việc tiếp theo |
+| **Success Metric** (baseline → target, cách đo) | Baseline: khoảng 45 phút/lần tìm kiếm (ước tính). Target: < 5 phút/lần, 100% kiểm tra nguồn trước khi dùng. Cách đo: thành viên tự ghi lại thời gian và số lần phải quay về cách cũ trong 2 tuần làm việc tiếp theo |
 | **Boundary** | AI chỉ đọc và trích xuất từ tài liệu nhóm đã đưa vào; không tự ý sửa, xóa hay gửi tài liệu; không tự chốt quyết định; không trả lời khi không có nguồn trích dẫn. Người hỏi bắt buộc phải mở link nguồn để kiểm tra nội dung trước khi đưa vào bài làm |
 | **AI intervention point** | Bước 2 (AI tìm kiếm ngữ nghĩa trong bảng chung và tài liệu, trả lời kèm nguồn). Bước 1 (Rule gom link) là bước nền chạy tự động, không phải AI |
 | **Mức chọn** | Workflow |
-| **Rủi do & người kiểm tra** | AI hallucinate hoặc dẫn bản cũ → boundary: không trả lời khi không có nguồn; HITL: người hỏi kiểm tra nguồn. Người kiểm tra: người hỏi (thành viên cần thông tin). Người vận hành: nhóm trưởng hoặc người được phân công gom link |
+| **Rủi ro & người kiểm tra** | AI hallucinate hoặc dẫn bản cũ → boundary: không trả lời khi không có nguồn; HITL: người hỏi kiểm tra nguồn. Người kiểm tra: người hỏi (thành viên cần thông tin). Người vận hành: nhóm trưởng hoặc người được phân công gom link |
 
 **Thay đổi so với v0 và lý do:**
 
@@ -310,7 +310,7 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Thấp | Pain có thật: 45 phút/lần tìm tài liệu, xảy ra hàng tuần trong 8 tuần làm đồ án; 5/5 thành viên đều gặp; survey 8 người, 5/8 phải tổng hợp từ nhiều nguồn. Không phải pain giả định |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | Survey 8 người: 6/8 thường xuyên tham gia tổng hợp báo cáo, 5/8 khó nhất là thu thập từ nhiều nguồn, nhưng survey chưa hỏi trực tiếp việc tìm lại tài liệu; 45 phút/lần là ước tính từ một lần tìm của một thành viên, pilot phải đo lại |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | AI trả lời kèm nguồn (link/file), người dùng phải mở và kiểm tra trước khi dùng (HITL). Giao diện đơn giản: gõ câu hỏi → nhận câu trả lời + nguồn. Không cần kỹ năng đặc biệt |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Trung bình | Dữ liệu: bảng chung (link + nhãn) cần nhóm gắn nhãn tin nhắn. Công cụ: Gemini Notebook / LLM API + Google Sheets. Kỹ năng: nhóm có sinh viên AI, biết dùng LLM API. Rủi ro: mọi người không gắn nhãn → bảng thiếu thông tin |
 | **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Thấp | Chi phí: Gemini Notebook miễn phí (hoặc LLM API chi phí thấp cho nhóm sinh viên). Pháp lý: chỉ đọc tài liệu nhóm tự đưa vào, không vi phạm bản quyền. Vận hành: nhóm trưởng hoặc người được phân công gom link và duy trì bảng chung |
@@ -320,7 +320,7 @@ Vì sao:
 **Quyết định:** Go (pilot nhỏ nhất)
 
 **Lý do:**
-Pain có thật và thường trực (45 phút/lần, hàng tuần, 5/5 thành viên). Giải pháp Workflow khả thi trong lab: Rule gom link (miễn phí) + AI tìm kiếm ngữ nghĩa (Gemini Notebook miễn phí). Boundary rõ ràng (AI chỉ đọc, không sửa/gửi, HITL kiểm tra nguồn). Rủi ro chủ yếu là feasibility (gắn nhãn) — có thể kiểm chứng và xử lý.
+Không có rủi ro mức Cao; hai rủi ro Trung bình (Value, Feasibility) kiểm tra được ngay trong pilot. Pain được ghi nhận từ trải nghiệm của nhóm (ước tính 45 phút/lần). Giải pháp Workflow khả thi trong lab: Rule gom link (miễn phí) + AI tìm kiếm ngữ nghĩa (Gemini Notebook miễn phí). Boundary rõ ràng (AI chỉ đọc, không sửa/gửi, HITL kiểm tra nguồn). Rủi ro chủ yếu là feasibility (gắn nhãn) — có thể kiểm chứng và xử lý.
 
 **Nếu Go — pilot nhỏ nhất:**
 Thử nghiệm với 1 nhóm đồ án (nhóm mình) trong 2 tuần: gom link vào Google Sheets chung + dùng Gemini Notebook để tìm kiếm. Đo thời gian tìm tài liệu (baseline 45' → target < 5') và số lần phải quay về cách cũ.
@@ -349,4 +349,11 @@ Thử nghiệm với 1 nhóm đồ án (nhóm mình) trong 2 tuần: gom link v�
 
 ## 10. Tài liệu tham khảo
 
--
+- Survey của nhóm: Google Form, 8 phản hồi, ngày 09/11/2026 (mục 3.2).
+- Google Drive Search: <https://support.google.com/drive/answer/2375114>
+- Notion Wiki: <https://www.notion.com/help/wikis-and-verified-pages>
+- Gemini Notebook (NotebookLM): <https://support.google.com/gemininotebook/answer/16215270>
+- Glean: <https://www.glean.com>
+- Slack Enterprise Search: <https://slack.com/features/enterprise-search>
+- Conclude: <https://conclude.app>
+- Các framework của lab (Double Diamond, Job Story, Opportunity Solution Tree, The Mom Test, Google PAIR, Building Effective Agents, AI Canvas, Four Big Risks): [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
