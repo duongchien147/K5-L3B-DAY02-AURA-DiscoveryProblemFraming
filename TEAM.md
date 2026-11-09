@@ -56,7 +56,9 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Học được cách dẫn dắt nhóm đi từ mở rộng (15 ý tưởng) đến thu hẹp bằng cây OST và bảng chấm điểm lập luận, không dùng bỏ phiếu cảm tính.
+- Nhận ra bài toán tốt không phải là bài toán dùng công nghệ phức tạp nhất, mà là bài toán có đối tượng chịu ảnh hưởng rõ ràng, đo được nút thắt và kiểm chứng được bằng hành vi thực tế.
+- Thấy rõ ranh giới giữa Workflow và Agent: không phải bài toán nào cũng cần AI tự hành động, phần lớn chỉ cần AI làm một bước và con người kiểm tra kết quả.
 
 ---
 

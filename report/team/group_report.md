@@ -125,6 +125,10 @@ Tổng hợp:
 |---|---:|---|---|
 |Survey (Google Form, 09/11/2026) |8 |6/8 thường xuyên tham gia tổng hợp báo cáo; 5/8 nói khó nhất là thu thập báo cáo từ nhiều nguồn; 7/8 gặp thiếu thông tin hoặc báo cáo trễ ở mức thường xuyên hoặc thỉnh thoảng |2/8 nói việc tổng hợp thủ công không ảnh hưởng hoặc ảnh hưởng ít; 1/8 hiếm khi gặp thiếu thông tin hoặc báo cáo trễ; 3/8 gặp khó ở định dạng hoặc độ chính xác, không phải ở việc thu thập từ nhiều nguồn |
 
+![Kết quả khảo sát](../assets/cp4-survey-result.png)
+
+*Biên bản phỏng vấn sâu chi tiết được lưu tại [report/assets/cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md).*
+
 **Nhóm đã sửa problem thế nào sau kiểm chứng:** Survey hỏi về việc tổng hợp báo cáo, chưa hỏi trực tiếp việc tìm lại tài liệu và quyết định, nên nhóm chưa có đủ cơ sở để đổi problem. Nhóm ghi rõ giới hạn này: baseline 45 phút/lần vẫn là ước tính, rủi ro Value được đánh giá ở mức Trung bình (mục 8.1), và pilot 2 tuần phải đo lại trước khi mở rộng.
 
 ### 3.3. Research giải pháp đã có
@@ -191,6 +195,8 @@ HITL: người hỏi phải mở nguồn và kiểm tra trước khi dùng cho q
 PHƯƠNG ÁN QUAY VỀ: không có nguồn, nguồn sai hoặc AI ngừng hoạt động
 → làm theo cách cũ: tìm từng nơi rồi hỏi người đã gửi.
 ```
+
+![Sơ đồ quy trình tương lai](../assets/cp5-workflow-future.png)
 
 ### 4.3. Before / after
 
