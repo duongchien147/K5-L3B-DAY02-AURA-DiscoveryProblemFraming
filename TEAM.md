@@ -159,3 +159,34 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Học được cách áp dụng Double Diamond: mở rộng để tìm vấn đề rồi mới thu hẹp và đào sâu vào một vài vấn đề, và có thể dùng cách này cho nhiều việc khác.
 - Đôi khi không đưa AI vào quy trình lại là lựa chọn tốt, không phải việc gì cũng cần tối ưu theo cách đó.
+
+---  
+
+### TranDucTrung-2A202603938
+
+**Phần việc phụ trách:**
+
+- Người phản biện chính, phụ trách Assumption Map và research giải pháp có sẵn (CP4), phối hợp với Vũ Văn Trường.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603938_TranDucTrung.md`), xây dựng 3 Problem Card và quy trình nháp.
+- Pitch Card về đọc và phân tích bài báo khoa học, tham gia phản biện các candidate trong CP3.
+- Phản biện ý tưởng Hypertuning AI Agent của Trường về khả năng sử dụng Optuna/Ray Tune và rủi ro AI tạo hyperparameter không hợp lệ.
+- Xây dựng Assumption Map tại mục 3.1, xác định các giả định quan trọng và đánh giá mức độ bằng chứng dựa trên kết quả khảo sát.
+- Nghiên cứu Google Drive Search, Notion Wiki và NotebookLM; phối hợp với Trường hoàn thiện bảng research 6 công cụ giải pháp có sẵn.
+- Tham gia thảo luận lựa chọn Candidate #2 về việc tìm lại tài liệu và quyết định bị phân tán trên nhiều nền tảng.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Mục 2.1 trong `group_report.md`: bảng pitch và phản biện các candidate.
+- Mục 3.1 trong `group_report.md`: Assumption Map.
+- Mục 3.3 trong `group_report.md`: bảng Research công cụ.
+- Commit CP4: `bf9c9ab`, `7b1d01b`, `4c8a7a4`, `51609fc` — cập nhật báo cáo nhóm, bao gồm Assumption Map (3.1) và Research giải pháp (3.3).
+
+**Điều mình học được từ phần nhóm:**
+
+- Học được cách xác định các giả định quan trọng, đánh giá mức độ bằng chứng và ưu tiên kiểm chứng trước khi đưa ra giải pháp.
+- Qua việc phản biện và research, tôi nhận ra cần xem xét các công cụ hiện có và tính khả thi trước khi lựa chọn phương án mới.
+- Hiểu rằng không phải vấn đề nào cũng cần AI; cần xác định đúng bottleneck và lựa chọn giữa Rule, Workflow hoặc Agent phù hợp với nhu cầu thực tế.
+
