@@ -101,8 +101,8 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--
-
+- Học được cách lấy survey và ghi chép lại các thông tin cần thiết cho nhóm
+- Tổng hợp các thông tin, hiểu rõ được các problem và hướng giải quyết của team
 ---
 
 ### VuVanTruong-2A202603910
