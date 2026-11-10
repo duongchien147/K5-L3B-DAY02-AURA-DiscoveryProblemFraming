@@ -1,14 +1,10 @@
 # Báo cáo cá nhân — 2A202603921_DuongMinhChien
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Dương Minh Chiến
 - MSSV: 2A202603921
-- Email trường (không bắt buộc, repo có thể để public):26ai.chiendm3@vinuni.edu.vn
+- Email trường (không bắt buộc, repo có thể để public): 
 - Tên nhóm: AURA
 - Link repo nhóm: https://github.com/duongchien147/K5-L3B-DAY02-AURA-DiscoveryProblemFraming
 
@@ -16,24 +12,24 @@
 
 ## 2. Scan problem (CP1)
 
-Bối cảnh: Chiến, sinh viên năm 3 ngành Công nghệ thông tin, là nhóm trưởng nhóm đồ án gồm 5 thành viên. Nhóm có 8 tuần để xây dựng ứng dụng quản lý bán hàng. Nhóm sử dụng Zalo để trao đổi, Google Drive để lưu tài liệu, Google Sheets để quản lý nhiệm vụ và GitHub để quản lý mã nguồn. Chiến thường gặp khó khăn trong việc theo dõi tiến độ, tìm lại thông tin và sắp xếp lịch họp, khiến quá trình phối hợp mất thời gian và dễ ảnh hưởng đến deadline
+Bối cảnh: tôi là sinh viên năm 3 ngành Công nghệ thông tin, nhóm trưởng một nhóm đồ án 5 người. Nhóm có 8 tuần để làm một ứng dụng quản lý bán hàng; trao đổi qua Zalo, lưu tài liệu trên Google Drive, giao việc trên Google Sheets và quản lý mã nguồn trên GitHub. Tôi thường gặp khó khăn với ba việc: theo dõi tiến độ, tìm lại thông tin và xếp lịch họp. Cả ba làm phối hợp chậm và có thể ảnh hưởng đến deadline.
 
 Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng hợp nhiều thông tin** · **Pain từ người khác**.
 
 | #   | Lăng kính              | Job Story: Khi… tôi muốn… để…                                                                                                                                | Ai chịu ảnh hưởng?                | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng)               |
 | ---:| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------------------------------- |
-| 1   | Pain từ người khác     | Khi phân chia công việc đồ án, tôi muốn biết rõ nhiệm vụ và khối lượng của từng thành viên để tránh tình trạng người làm quá nhiều, người làm quá ít.        | Nhóm trưởng, thành viên           | Nhiệm vụ bị dồn cho một số người; thành viên phải làm thay.             |
-| 2   | Tốn thời gian          | Khi cần tổ chức họp nhóm, tôi muốn tìm được thời gian phù hợp với tất cả thành viên để không phải nhắn tin hỏi lịch từng người.                              | Cả nhóm                           | Số tin nhắn thống nhất lịch; số lần đổi lịch họp.                       |
-| 3   | Lặp lại                | Khi theo dõi tiến độ đồ án, tôi muốn biết nhiệm vụ nào đã hoàn thành và nhiệm vụ nào còn tồn đọng để không phải hỏi từng thành viên mỗi ngày.                | Nhóm trưởng, thành viên           | Số lần hỏi tiến độ; số nhiệm vụ cập nhật muộn.                          |
-| 4   | Cần tổng hợp thông tin | Khi thông tin nằm rải rác trong Zalo, Google Drive và Google Sheets, tôi muốn tìm lại tài liệu và quyết định của nhóm nhanh chóng để tránh bỏ sót thông tin. | Cả nhóm                           | Thời gian tìm tài liệu; số lần gửi lại hoặc hỏi lại thông tin.          |
-| 5   | Pain từ người khác     | Khi một thành viên chưa hoàn thành phần việc của mình, tôi muốn biết sớm vì công việc đó ảnh hưởng đến nhiệm vụ của người tiếp theo.                         | Nhóm trưởng, thành viên phụ thuộc | Số nhiệm vụ bị chậm do chờ thành viên khác; số lần phải đổi kế hoạch.   |
-| 6   | Tốn thời gian          | Khi các thành viên cùng chỉnh sửa mã nguồn, tôi muốn nhận biết và xử lý những thay đổi xung đột để tránh mất thời gian sửa lỗi khi ghép code.                | Các thành viên lập trình          | Số lần xảy ra conflict; thời gian xử lý khi ghép code.                  |
-| 7   | Cần tổng hợp thông tin | Khi nhận góp ý từ giảng viên và các thành viên về báo cáo, tôi muốn tổng hợp các góp ý tại một nơi để biết nội dung nào cần chỉnh sửa.                       | Nhóm trưởng, người viết báo cáo   | Số góp ý bị bỏ sót; số lần phải hỏi lại nội dung chỉnh sửa.             |
-| 8   | Lặp lại                | Khi gần đến hạn nộp đồ án, tôi muốn kiểm tra các phần việc, tài liệu và chức năng đã hoàn thành để đảm bảo nhóm không bỏ sót nội dung cần nộp.               | Nhóm trưởng, cả nhóm              | Số nội dung còn thiếu khi kiểm tra; số lần phải chỉnh sửa sát deadline. |
+| 1 | Pain từ người khác | Khi phân chia công việc đồ án, tôi muốn biết rõ nhiệm vụ và khối lượng của từng thành viên để tránh tình trạng người làm quá nhiều, người làm quá ít. | Nhóm trưởng, thành viên | Nhiệm vụ bị dồn cho một số người, thành viên phải làm thay. [CẦN ĐIỀN: bao nhiêu lần, ai làm thay] |
+| 2 | Tốn thời gian | Khi cần tổ chức họp nhóm, tôi muốn tìm được thời gian phù hợp với tất cả thành viên để không phải nhắn tin hỏi lịch từng người. | Cả nhóm | Ước tính của tôi (chưa bấm giờ): 10–15 phút mỗi lần tổng hợp lịch, chưa tính thời gian chờ phản hồi. [CẦN ĐIỀN: số lần đổi lịch họp, số tin nhắn của lần họp gần nhất] |
+| 3 | Lặp lại | Khi theo dõi tiến độ đồ án, tôi muốn biết nhiệm vụ nào đã hoàn thành và nhiệm vụ nào còn tồn đọng để không phải hỏi từng thành viên mỗi ngày. | Nhóm trưởng, thành viên | Ước tính của tôi (chưa bấm giờ): 15–25 phút mỗi lần kiểm tra nhiều nguồn và hỏi lại từng người. [CẦN ĐIỀN: số lần phải hỏi tiến độ trong một tuần, số nhiệm vụ cập nhật muộn] |
+| 4 | Cần tổng hợp thông tin | Khi thông tin nằm rải rác trong Zalo, Google Drive và Google Sheets, tôi muốn tìm lại tài liệu và quyết định của nhóm nhanh chóng để tránh bỏ sót thông tin. | Cả nhóm | Ước tính của tôi (chưa bấm giờ): 5–10 phút mỗi lần tìm lại tài liệu hoặc quyết định. [CẦN ĐIỀN: số lần tìm trong một tuần, số lần phải hỏi lại người gửi] |
+| 5 | Pain từ người khác | Khi một thành viên chưa hoàn thành phần việc của mình, tôi muốn biết sớm vì công việc đó ảnh hưởng đến nhiệm vụ của người tiếp theo. | Nhóm trưởng, thành viên phụ thuộc | [CẦN ĐIỀN: số nhiệm vụ bị chậm vì chờ thành viên khác, số lần phải đổi kế hoạch] |
+| 6 | Tốn thời gian | Khi các thành viên cùng chỉnh sửa mã nguồn, tôi muốn nhận biết và xử lý những thay đổi xung đột để tránh mất thời gian sửa lỗi khi ghép code. | Các thành viên lập trình | [CẦN ĐIỀN: số lần xảy ra conflict, thời gian xử lý mỗi lần] |
+| 7 | Cần tổng hợp thông tin | Khi nhận góp ý từ giảng viên và các thành viên về báo cáo, tôi muốn tổng hợp các góp ý tại một nơi để biết nội dung nào cần chỉnh sửa. | Nhóm trưởng, người viết báo cáo | [CẦN ĐIỀN: số góp ý bị bỏ sót, số lần phải hỏi lại nội dung chỉnh sửa] |
+| 8 | Lặp lại | Khi gần đến hạn nộp đồ án, tôi muốn kiểm tra các phần việc, tài liệu và chức năng đã hoàn thành để đảm bảo nhóm không bỏ sót nội dung cần nộp. | Nhóm trưởng, cả nhóm | [CẦN ĐIỀN: số nội dung còn thiếu khi kiểm tra, số lần phải sửa sát deadline] |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
-- Tôi sử dụng AI để gợi ý thêm các vấn đề thường gặp khi sinh viên làm đồ án nhóm. Tôi giữ lại các ý tưởng như , khó sắp xếp lịch họp, theo dõi tiến độ, tìm kiếm thông tin và xung đột khi ghép code trên GitHub vì chúng phù hợp với bối cảnh nghiên cứu. Tôi cân nhắc vấn đề bàn giao công việc khi thành viên nghỉ vì không phải nhóm nào cũng gặp. Tôi loại bỏ các ý tưởng như quản lý chi phí tổ chức sự kiện và phối hợp giữa các phòng ban doanh nghiệp vì không phù hợp với đối tượng nghiên cứu. Các ý tưởng được giữ lại vẫn cần kiểm chứng qua phỏng vấn sinh viên.
+- Tôi dùng AI để gợi ý thêm các vấn đề sinh viên hay gặp khi làm đồ án nhóm. Tôi giữ lại các ý về xếp lịch họp, theo dõi tiến độ, tìm lại thông tin và conflict khi ghép code trên GitHub, vì chúng phù hợp với bối cảnh làm đồ án của nhóm. Ý bàn giao công việc khi có thành viên nghỉ tôi chỉ cân nhắc, vì không nhóm nào cũng gặp. Tôi bỏ các ý về chi phí tổ chức sự kiện và phối hợp giữa các phòng ban doanh nghiệp vì không liên quan đến sinh viên làm đồ án. Các ý giữ lại vẫn cần kiểm chứng qua phỏng vấn sinh viên.
 
 ---
 
@@ -106,9 +102,9 @@ Ghi nhiệm vụ trên Google Sheets
         ↓
 Phát sinh nhu cầu tìm thông tin
         ↓
-Tìm lại tin nhắn / tài liệu
+Tìm lại tin nhắn / tài liệu (5–10 phút/lần, ước tính) ← BOTTLENECK
         ↓
-Hỏi thành viên nếu không tìm thấy
+Hỏi thành viên nếu không tìm thấy ← BOTTLENECK
 ```
 
 ### Problem Card #3 – Khó sắp xếp lịch họp nhóm
@@ -129,13 +125,13 @@ Hỏi thành viên nếu không tìm thấy
 Quy trình nháp hiện tại:
 
 ```text
-Minh đề xuất lịch họp trên Zalo
+Chiến đề xuất lịch họp trên Zalo
               ↓
-Thành viên phản hồi lịch rảnh
+Thành viên phản hồi lịch rảnh ← BOTTLENECK (bước 2–4: 10–15 phút/lần, chưa tính thời gian chờ)
               ↓
-Minh tổng hợp câu trả lời
+Chiến tổng hợp câu trả lời ← BOTTLENECK
               ↓
-Đối chiếu thời gian của mọi người
+Đối chiếu thời gian của mọi người ← BOTTLENECK
               ↓
 Thống nhất hoặc chọn lại lịch
 ```
@@ -160,14 +156,14 @@ Thống nhất hoặc chọn lại lịch
 |---|---|---|
 | Pitch Problem Card | Pitch 3 card cá nhân, bảo vệ Card #2 về việc tài liệu và quyết định bị trôi trên Zalo, Google Drive, Sheets | Cả nhóm đồng thuận chọn Card #2 làm candidate chung vì đều từng gặp tình cảnh lục tin nhắn tìm link tài liệu |
 | Phản biện bài của bạn khác | Hỏi Trung về MLflow (có quá nặng với đồ án môn học không); hỏi Thịnh về việc tổng hợp báo cáo (chậm do trễ hạn hay do ghép nội dung); hỏi Đức về script check tên file lab (regex hay AI) | Giúp nhóm loại bỏ các ý tưởng thiên về công cụ phức tạp hoặc có thể giải quyết nhanh bằng code thông thường |
-| Nhận phản biện | Thịnh hỏi: "Không tìm thấy file là do tìm kiếm kém hay do nhóm không chịu đặt tên folder chuẩn từ đầu?"; Đức hỏi: "Dùng bảng Kanban ghim link có giải quyết xong không?" | Tôi thừa nhận một phần nguyên nhân do thói quen lưu trữ lộn xộn. Nhóm sửa lại: dùng Rule để chuẩn hóa và ghim link, AI chỉ làm nhiệm vụ đối chiếu ngữ nghĩa câu hỏi với nội dung tài liệu |
+| Nhận phản biện | Thịnh hỏi (candidate #2 của tôi): "Bottleneck thật sự là do công cụ tìm kiếm kém, hay do quy ước đặt tên thư mục trên Google Drive của nhóm chưa thống nhất ngay từ đầu?" Đức hỏi (candidate #1 của tôi): "Nếu nhóm chỉ cần quy định 1 bảng Kanban/Trello cố định và cam kết cập nhật hằng ngày lúc 18h thì đã giải quyết được chưa, tại sao vẫn cần AI?" | Với câu của Thịnh, tôi thừa nhận một phần nguyên nhân nằm ở thói quen lưu trữ lộn xộn của nhóm. Nhóm sửa lại: dùng Rule để chuẩn hóa và ghim link, AI chỉ đối chiếu ngữ nghĩa câu hỏi với nội dung tài liệu. Candidate #1 không vào shortlist |
 | Gom cluster / cây OST | Điều phối nhóm gom 15 card thành 3 cụm; cùng nhóm dựng cây OST với mục tiêu giảm thời gian tìm kiếm từ 45 phút xuống dưới 5 phút | Phân định rạch ròi giữa mong muốn thực tế (Opportunity) và giải pháp kỹ thuật (Solution), không để giải pháp lấn át vấn đề |
 | Chọn candidate problem | Cùng nhóm chấm điểm 3 candidate theo 7 tiêu chí trong bảng shortlist; giải thích lý do chọn Candidate #2 và loại Candidate #10, #13 | Candidate #2 đạt điểm cao nhất (34/35) nhờ phạm vi vừa sức kiểm chứng và mức độ ảnh hưởng trực tiếp tới công việc của nhóm |
-| Kiểm chứng / research | Phối hợp với Thịnh phân tích số liệu survey 8 sinh viên; cùng Trung rà soát 6 công cụ giải pháp trên thị trường | Xác nhận 5/8 người thấy khâu gom dữ liệu từ nhiều nguồn là mệt nhất; thấy rõ thị trường thiếu công cụ nhẹ nhàng cho sinh viên |
+| Kiểm chứng / research | Cùng Thịnh đọc số liệu survey 8 người (hỏi về việc tổng hợp báo cáo); cùng Trung rà soát 6 công cụ giải pháp | 6/8 người thường xuyên tham gia tổng hợp báo cáo, 5/8 thấy thu thập báo cáo từ nhiều nguồn là khó nhất. Survey chưa hỏi việc tìm lại tài liệu nên chưa xác nhận trực tiếp pain của candidate #2. Qua research, các công cụ tìm kiếm xuyên kênh đang nhắm tới doanh nghiệp, chưa có loại nhẹ cho nhóm sinh viên |
 | Quy trình nhóm | Cùng Đức rà soát 7 bước hiện tại, chỉ ra bước 6 (ngồi chờ người gửi link trả lời) là nút thắt gây tốn 15 phút; dựng quy trình mới 3 bước | Xác định rõ vai trò con người: AI tìm trích dẫn, người bấm link kiểm tra lại nguồn trước khi chép vào bài làm |
-| Problem Statement | Viết bản thảo v0 với đủ 5 thành tố; tiếp thu góp ý từ AI và nhóm để viết lại bản v1 | Loại bỏ giải pháp bị cài cắm trong câu chữ; đưa vào số đo cụ thể và khoanh ranh giới rõ ràng |
+| Problem Statement | Viết Problem Statement v0 đủ 6 trường (mục 5). Bản v1 (mục 7) do Trường điền; tôi hỗ trợ theo phân công trong `TEAM.md` | Sau góp ý của AI và nhóm, v0 bỏ giải pháp ra khỏi câu chữ, có số đo cụ thể và ranh giới rõ |
 | Mức can thiệp AI | Cùng Trường phân tích ma trận Ambiguity x Complexity; thảo luận 4 mức can thiệp để chọn ra mức phù hợp | Bác bỏ ý tưởng dựng Autonomous Agent; chốt mức Workflow (kết hợp Rule + AI một bước + con người duyệt) |
-| Quyết định | Tham gia đánh giá 4 rủi ro lớn (Value, Usability, Feasibility, Viability); đề xuất phương án Go với pilot nhỏ 2 tuần | Đặt ra mốc dừng cụ thể: sau 2 tuần nếu vẫn mất trên 15 phút tìm quyết định thì dừng lại |
+| Quyết định | Tham gia đánh giá 4 rủi ro (Value, Usability, Feasibility, Viability); đề xuất phương án Go với pilot nhỏ 2 tuần | Mốc dừng trong báo cáo nhóm: sau 2 tuần, nếu thời gian tìm tài liệu vẫn trên 15 phút/lần hoặc hơn 50% câu hỏi AI không tìm được nguồn thì quay về cách cũ |
 
 ---
 
@@ -175,11 +171,11 @@ Thống nhất hoặc chọn lại lịch
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Tìm ý tưởng về các điểm nghẽn thời gian trong học tập qua 4 lăng kính | Nhắc lại các tình huống hay quên hạn nộp hoặc lẫn lộn phiên bản slide | Gợi ý chung chung như "quản lý thời gian chưa tốt", không có ngữ cảnh cụ thể | Tự viết 7 vấn đề dựa trên chính trải nghiệm làm bài tập lớn các kỳ trước |
+| CP1 Scan | Tìm ý tưởng về các điểm nghẽn thời gian trong học tập qua 4 lăng kính | Nhắc lại các tình huống hay quên hạn nộp hoặc lẫn lộn phiên bản slide | Gợi ý chung chung như "quản lý thời gian chưa tốt", không có ngữ cảnh cụ thể | Tự viết 8 vấn đề dựa trên chính trải nghiệm làm bài tập lớn các kỳ trước |
 | CP2 Problem Card | Rà soát cấu trúc Problem Card xem có bị lẫn lộn giữa vấn đề và giải pháp không | Chỉ ra Card #2 lúc đầu viết ôm đồm cả việc phân chia công việc lẫn lưu trữ | Đề xuất tích hợp mô hình ngôn ngữ vào đủ thứ công cụ (Notion, Trello, Google Drive) | Thu gọn card vào đúng việc tìm lại tài liệu và quyết định họp bị trôi |
 | CP4 Research | Tra cứu các phần mềm tìm kiếm nội bộ doanh nghiệp có sẵn | Cung cấp tên các giải pháp như Glean, Conclude, Slite | Mô tả các phần mềm như thể sinh viên có thể dùng ngay, bỏ qua chi phí đắt đỏ | Hướng nhóm kiểm tra các công cụ miễn phí gần gũi hơn như Google Drive Search, Gemini NotebookLM |
 | CP5 Quy trình | Kiểm tra sơ đồ quy trình làm việc xem có thiếu bước xử lý lỗi nào không | Nhắc bổ sung phương án quay về cách thủ công khi hệ thống gặp sự cố | Đòi nhét thêm bước AI tự gắn nhãn tài liệu làm tăng nguy cơ phân loại sai | Giữ quy tắc con người tự đặt tên folder theo quy ước, AI chỉ đọc nội dung tìm kiếm |
-| CP5–6 Problem Statement | Nhờ AI chấm điểm câu Problem Statement v0 theo bộ 5 tiêu chí chuẩn | Phát hiện ra nhóm đang cài từ khóa giải pháp vào v0 thay vì nói về nỗi đau | Viết lại câu văn nghe bóng bẩy, sáo rỗng và thiếu hẳn số liệu thực tế | Tự viết lại câu v1 với thời gian đo đếm cụ thể (45 phút xuống dưới 5 phút) và ranh giới rõ |
+| CP5–6 Problem Statement | Nhờ AI chấm điểm câu Problem Statement v0 theo bộ 5 tiêu chí chuẩn | Phát hiện ra nhóm đang cài từ khóa giải pháp vào v0 thay vì nói về nỗi đau | Viết lại câu văn nghe bóng bẩy, sáo rỗng và thiếu hẳn số liệu thực tế | Tự viết lại v0 với thời gian đo đếm cụ thể (45 phút xuống dưới 5 phút) và ranh giới rõ |
 | CP6 Mức can thiệp / quyết định | So sánh ưu nhược điểm giữa phương án Workflow và Autonomous Agent | Liệt kê các nguy cơ của Agent: chi phí gọi API cao, vòng lặp vô tận, ảo giác | Có xu hướng thiên vị Agent vì nghe tân tiến và hấp dẫn hơn về mặt công nghệ | Chọn mức Workflow vì bài toán sinh viên cần sự chính xác có trích dẫn nguồn gốc hơn là tự động hóa mù quáng |
 
 ---
@@ -190,43 +186,44 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Khi nghe các bạn trong nhóm trình bày, điều làm tôi chú ý nhất là ai cũng xuất phát từ những ức chế rất thật trong quá trình học. Trung thì bức xúc vì làm bài thực hành học máy phải chạy lại mô hình nhiều lần mà không nhớ tham số cũ lưu ở đâu. Thịnh thì ngán ngẩm cảnh mỗi lần đến hạn nộp báo cáo nhóm lại phải đi nhắn tin giục từng người rồi ngồi ghép từng đoạn Word lộn xộn. Trường thì muốn làm một con bot tự gom tin tức AI trên mạng xã hội để đọc cho nhanh.
+Điều tôi để ý nhất là ai trong nhóm cũng xuất phát từ một chuyện bực mình có thật. Trung phải đối chiếu kết quả sau nhiều lần huấn luyện mô hình và mất khoảng 2 tiếng để đọc một bài báo khoa học. Thịnh mỗi cuối tuần phải gom báo cáo từ chat và email vào một file chung. Trường mất 20–30 phút mỗi sáng để lướt tin AI trên X, và muốn hypertune model mà không phải chạy lại nhiều lần.
 
-Nghe xong, tôi nhận ra nếu không có bước chia sẻ thẳng thắn này, mỗi người sẽ chỉ nhìn thấy góc hẹp của mình. Có những vấn đề nghe rất ngầu về mặt kỹ thuật như theo dõi tham số mô hình của Trung, nhưng khi bàn kỹ thì chỉ có một vài bạn thực sự hiểu và gặp phải. Ngược lại, vấn đề tài liệu và quyết định bị trôi tin nhắn trên Zalo thì cả 5 người đều từng trải qua và đều thấy bực bội. Điều đó dạy tôi rằng một bài toán đáng giải cho nhóm không phải là bài toán nghe phức tạp nhất, mà là bài toán chạm vào đúng nỗi bực mình chung của mọi người.
+Nghe xong, tôi thấy nếu không có bước chia sẻ này thì mỗi người chỉ nhìn được góc hẹp của mình. Có vấn đề nghe rất ngầu về kỹ thuật, như hypertune model của Trường, nhưng khi bàn kỹ thì chỉ vài bạn thật sự hiểu và gặp. Còn chuyện tài liệu và quyết định bị trôi trong tin nhắn Zalo thì tôi thấy cả nhóm đều từng gặp. Từ đó tôi rút ra: một bài toán đáng giải cho nhóm là bài toán chạm vào chuyện bực mình chung của mọi người, độ phức tạp kỹ thuật thì chưa chắc.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Nhóm tôi bị dính bẫy nghĩ giải pháp trước ngay từ buổi họp đầu tiên. Khi vừa thống nhất chủ đề tài liệu phân tán, phản xạ đầu tiên của mấy anh em là nhảy ngay vào bàn xem nên dùng thư viện nào, cắm API nào, hay làm một con bot Zalo tự động đọc tin nhắn rồi lưu vào cơ sở dữ liệu vector. Lúc đó mọi người hào hứng nói về công nghệ đến mức quên bẵng việc hỏi xem rốt cuộc sinh viên đang tìm tài liệu theo cách nào và mất thời gian nhất ở bước nào.
+Nhóm tôi bị dính bẫy nghĩ giải pháp trước ngay từ buổi họp đầu tiên. Vừa thống nhất chủ đề tài liệu phân tán, phản xạ đầu tiên của mấy anh em là bàn xem dùng thư viện nào, cắm API nào, hay làm một con bot Zalo đọc tin nhắn rồi lưu vào cơ sở dữ liệu vector. Ai cũng hào hứng nói về công nghệ và quên hỏi sinh viên đang tìm tài liệu bằng cách nào, mất thời gian nhất ở bước nào.
 
-May mắn là khi mở lại tài liệu bài lab và đọc đến phần cây OST, nhóm mới khựng lại. Cây OST bắt buộc phải viết cột Outcome và Opportunity trước khi được viết Solution. Tôi chủ động bảo cả nhóm dừng bàn về code và bot lại. Nhóm ngồi bóc tách quy trình thực tế: sinh viên mở Zalo, lướt tin nhắn, gõ từ khóa tìm kiếm, không thấy thì mở Drive, tìm không ra thì lại nhắn tin hỏi người gửi. Khi nhìn vào 7 bước đó, nhóm mới nhận ra nút thắt nằm ở việc chờ người gửi phản hồi và xác nhận lại ngữ cảnh, chứ không phải do thiếu một con AI biết trò chuyện. Nhờ vậy nhóm mới kéo nhau về đúng thực tế.
+Khi mở lại tài liệu lab và đến phần cây OST, nhóm mới khựng lại, vì cây OST bắt phải viết Outcome và Opportunity trước Solution. Tôi bảo cả nhóm dừng bàn về code và bot. Nhóm ngồi liệt kê quy trình thực tế: mở Zalo, lướt tin nhắn, gõ từ khóa; không thấy thì mở Drive; vẫn không ra thì nhắn hỏi người gửi. Nhìn lại quy trình đó, nhóm thấy nút thắt nằm ở việc chờ người gửi trả lời, không phải ở chỗ thiếu một con AI biết trò chuyện. Cây OST cuối cùng gạch bỏ ý "chatbot AI tra cứu tài liệu trên Zalo".
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Tôi đã đổi ý hoàn toàn ở bước xác định nguyên nhân gốc rễ của vấn đề. Ban đầu, khi pitch Card #2, tôi khăng khăng cho rằng lỗi lớn nhất là do Zalo và Drive tìm kiếm quá kém, khiến sinh viên mất công tìm kiếm mà không ra kết quả. Tôi thậm chí còn cho rằng cần một công cụ AI quét toàn bộ tin nhắn và tài liệu nhằm thay thế thanh tìm kiếm của các ứng dụng này.
+Tôi đổi ý ở chỗ xác định nguyên nhân gốc. Khi pitch Card #2, tôi cho rằng lỗi chính là tìm kiếm của Zalo và Drive quá kém, nên cần một công cụ quét toàn bộ tin nhắn và tài liệu để thay thanh tìm kiếm.
 
-Tuy nhiên, trong buổi phản biện, Thịnh và Đức đã đặt một câu hỏi rất gắt: "Nếu trong nhóm có bạn gửi file bài tập mà đặt tên là file_moi_1.docx rồi vứt bừa vào tin nhắn thì AI nào tìm cho chuẩn được? Vấn đề do công cụ kém hay do nhóm mình không có quy ước lưu trữ rõ ràng ngay từ đầu?". Câu hỏi đó đánh trúng điểm yếu trong lập luận của tôi. Tôi nhận ra mình đang kỳ vọng AI dọn dẹp đống rác mà con người tạo ra. Sau buổi đó, tôi đồng ý sửa lại hướng tiếp cận: nhóm phải có quy ước đặt tên và một bảng Sheets tập trung (Rule) trước, AI chỉ đóng vai trò hỗ trợ đối chiếu câu hỏi tự nhiên với nội dung bên trong tài liệu để trích xuất ngữ cảnh. Đây là sự thay đổi giúp bài toán thực tế hơn rất nhiều.
+Thịnh hỏi: "Bottleneck thật sự là do công cụ tìm kiếm kém, hay do quy ước đặt tên thư mục trên Google Drive của nhóm chưa thống nhất ngay từ đầu?" Câu này trúng điểm yếu của tôi. Nếu có bạn gửi file tên file_moi_1.docx rồi vứt vào tin nhắn thì công cụ nào cũng khó tìm, và tôi đang kỳ vọng AI dọn đống lộn xộn do con người tạo ra. Sau buổi đó tôi đồng ý đổi hướng: nhóm cần quy ước đặt tên và một bảng Sheets tập trung (Rule) trước, AI chỉ đối chiếu câu hỏi tự nhiên với nội dung bên trong tài liệu.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Điều làm tôi bất ngờ nhất khi xem kết quả khảo sát 8 bạn sinh viên là tỷ lệ gặp rắc rối vì tài liệu phân tán cao hơn tôi tưởng, nhưng lý do họ đưa ra lại có điểm khác với suy nghĩ ban đầu của tôi. Có tới 6 trên 8 bạn thường xuyên phải tổng hợp báo cáo và 5 bạn khẳng định khâu thu thập thông tin từ nhiều nguồn là công đoạn gây mệt mỏi nhất.
+Điều làm tôi bất ngờ là kết quả khảo sát không trả lời đúng câu hỏi của nhóm. Survey có 8 người và hỏi về việc tổng hợp báo cáo, không hỏi về việc tìm lại tài liệu và quyết định, tức là không phải vấn đề nhóm đã chọn. Đức đã ghi giới hạn này ở mục 3.2 của báo cáo nhóm.
 
-Thế nhưng, điều bất ngờ nằm ở chỗ có 3 bạn chia sẻ rằng nếu nhóm có sẵn một biểu mẫu chuẩn và mọi người chịu khó dán link vào một chỗ thì họ không thấy cần thêm bất kỳ công cụ AI nào nữa. Điều này khiến tôi giật mình. Nó cảnh báo nhóm rằng nguy cơ làm ra một thứ thừa thãi là có thật. Người dùng không hề tha thiết AI, họ chỉ muốn công việc bớt phiền toái. Nếu giải pháp công nghệ đưa vào mà rườm rà hơn việc mở một trang Google Sheets để tra cứu thì họ sẽ bỏ ngay lập tức. Chính phát hiện này đã giúp nhóm giữ vững quyết định chọn mức can thiệp Workflow nhẹ nhàng thay vì làm một hệ thống cồng kềnh.
+Về nội dung, 6/8 người thường xuyên tham gia tổng hợp báo cáo và 5/8 nói khó nhất là thu thập báo cáo từ nhiều nguồn. Con số này gần với pain của nhóm nhưng chưa chứng minh được nó. Phía phản bác có 2/8 người nói tổng hợp thủ công không ảnh hưởng hoặc ảnh hưởng ít, và 3/8 người gặp khó ở định dạng hoặc độ chính xác chứ không ở khâu thu thập. Vì vậy báo cáo nhóm xếp rủi ro Value ở mức Trung bình và để pilot 2 tuần đo lại baseline.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Điều khó nhất khi viết Problem Statement là kiềm chế bản thân không đưa giải pháp vào câu chữ và phải tìm ra con số thực tế để lượng hóa nỗi đau. Khi viết bản v0, tay tôi cứ quen gõ những từ như "xây dựng trợ lý AI", "tự động hóa tìm kiếm", "giúp sinh viên tra cứu nhanh chóng". Phải đến khi bị AI và các bạn trong nhóm soi từng chữ, tôi mới nhận ra mình đang mô tả sản phẩm mình muốn làm thay vì mô tả vấn đề người dùng đang chịu đựng.
+Khó nhất là không đưa giải pháp vào câu chữ và tìm được con số để nói nỗi đau lớn cỡ nào. Khi viết v0, tay tôi cứ quen gõ "xây dựng trợ lý AI", "tự động hóa tìm kiếm", "giúp sinh viên tra cứu nhanh". Phải đến khi AI và các bạn soi từng chữ, tôi mới thấy mình đang tả sản phẩm muốn làm chứ không tả vấn đề người dùng đang chịu.
 
-Ngoài ra, việc tìm ra con số 45 phút cho mỗi lần tổng hợp và 15 phút chờ phản hồi từ bạn cùng nhóm cũng đòi hỏi cả nhóm phải ngồi bấm giờ và nhớ lại các buổi làm đồ án thực tế. Nếu không có số liệu, câu văn sẽ trở nên vô thưởng vô phạt với những tính từ chung chung như "rất lâu", "khó khăn", "kém hiệu quả". Khoanh vùng ranh giới (Boundary) cũng là một thử thách lớn: phải dám viết thẳng ra rằng hệ thống này không xử lý ảnh chụp chữ viết tay và không tự đưa ra quyết định thay nhóm, chấp nhận giải quyết tốt một góc nhỏ thay vì hứa hẹn viển vông.
+Con số cũng là chỗ nhóm còn yếu. Baseline 45 phút mỗi lần tìm trong báo cáo nhóm là ước tính từ một lần tìm gần nhất của Đức, chưa ai bấm giờ. Baseline trong card CP2 của tôi là 5–10 phút mỗi lần, và hai con số này chưa được đối chiếu với nhau, nên pilot phải đo lại. Ranh giới (Boundary) cũng khó: nhóm phải viết thẳng rằng AI chỉ đọc, không sửa, xóa hay gửi tài liệu, không tự chốt quyết định và không trả lời khi không có nguồn, thay vì hứa một hệ thống làm được nhiều việc.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Nếu có cơ hội làm lại từ đầu, tôi sẽ đầu tư làm bảng khảo sát và phỏng vấn người dùng sớm hơn ngay từ Checkpoint 2, thay vì đợi đến Checkpoint 4 mới tiến hành. Việc có số liệu thực tế sớm sẽ giúp nhóm không mất thời gian tranh cãi dựa trên cảm tính cá nhân khi chấm điểm shortlist.
+Nếu làm lại, tôi sẽ làm khảo sát và phỏng vấn người dùng sớm hơn, ngay từ CP2 thay vì đợi đến CP4. Có số thật sớm thì nhóm đỡ tranh cãi bằng cảm tính khi chấm shortlist.
 
-Về phía phản biện nhóm, tôi sẽ phản biện gay gắt hơn đối với ý tưởng làm Agent tự hành ngay từ buổi đầu. Trong nhóm vẫn có bạn tiếc nuối công nghệ cao và muốn đưa LLM vào tự động làm mọi khâu. Tôi lẽ ra nên đặt câu hỏi thẳng thắn hơn về chi phí vận hành, nguy cơ mô hình bịa đặt thông tin trong bài tập môn học và ai sẽ là người chịu trách nhiệm khi câu trả lời sai dẫn đến việc nộp bài thiếu nội dung. Việc chốt sớm mức can thiệp ở dạng Workflow có sự kiểm tra của con người sẽ giúp cả nhóm tiết kiệm được rất nhiều thời gian tranh luận.
+Về phản biện, tôi sẽ phản biện mạnh hơn ý tưởng Agent tự hành ngay từ đầu. Trong nhóm vẫn có bạn tiếc công nghệ cao và muốn đưa LLM vào làm mọi khâu. Lẽ ra tôi nên hỏi thẳng về chi phí vận hành, nguy cơ mô hình bịa thông tin trong bài tập môn học, và ai chịu trách nhiệm nếu câu trả lời sai làm nộp bài thiếu nội dung. Chốt sớm mức Workflow có con người kiểm tra thì nhóm đã đỡ tốn thời gian tranh luận.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Sinh viên làm đồ án gặp vấn đề mất trung bình 45 phút mỗi lần họp vì tài liệu và quyết định bị trôi phân tán trên Zalo, Google Drive và Sheets. Quy trình hiện tại gồm 7 bước thủ công với nút thắt lớn nhất là bước chờ người gửi phản hồi xác nhận ngữ cảnh mất tới 15 phút. Mục tiêu đặt ra là cắt giảm thời gian tìm kiếm xuống dưới 5 phút cho mỗi quyết định và loại bỏ hoàn toàn thời gian chờ đợi người khác. Ranh giới của bài toán chỉ xử lý các định dạng văn bản số và tin nhắn nhóm, dứt khoát không nhận ảnh chụp bảng viết tay và không tự ý đưa ra quyết định thay các thành viên. Mức can thiệp được chọn là Workflow, kết hợp Rule tự động gom link, AI tìm kiếm trích dẫn đoạn liên quan và con người bấm link gốc để kiểm chứng trước khi dùng. Quyết định cuối cùng của nhóm là Go nhưng chỉ giới hạn trong quy mô pilot nhỏ 2 tuần với nhóm AURA, kèm ngưỡng dừng rõ ràng là nếu sau 2 tuần thời gian tìm kiếm vẫn trên 15 phút thì sẽ dừng dự án.
+Sinh viên làm đồ án nhóm mất khoảng 45 phút mỗi lần tìm lại một tài liệu hoặc quyết định (ước tính, chưa đo) vì thông tin nằm rải rác trên Zalo, Google Drive và Sheets. Quy trình hiện tại gồm 7 bước thủ công, nút thắt là bước chờ người đã gửi trả lời, khoảng 15 phút. Mục tiêu là giảm thời gian tìm xuống dưới 5 phút mỗi lần và không dùng nhầm bản cũ, đo bằng việc thành viên tự ghi giờ trong 2 tuần. Ranh giới: AI chỉ đọc những tài liệu nhóm đã đưa vào, không sửa, xóa hay gửi, không tự chốt quyết định và không trả lời khi không có nguồn; người hỏi phải mở nguồn kiểm tra trước khi dùng. Mức can thiệp là Workflow: Rule gom link về bảng chung, AI tìm và trả lời kèm nguồn, con người kiểm tra. Quyết định là Go ở mức pilot nhỏ 2 tuần với nhóm AURA. Nếu sau 2 tuần thời gian tìm vẫn trên 15 phút mỗi lần, hoặc hơn 50% câu hỏi AI không tìm được nguồn, nhóm quay về cách cũ.
+
 
 ---
 

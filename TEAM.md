@@ -48,7 +48,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Hoàn thành báo cáo cá nhân CP1 & CP2 (`2A202603921_DuongMinhChien.md`)
 - Pitch candidate #2, tổng hợp bảng pitch 15 cards và chủ trì buổi họp CP3
-- Viết Problem Statement v0 và v1 trong `group_report.md`
+- Viết Problem Statement v0 trong group_report.md; hỗ trợ Trường ở phần v1 theo phân công
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
@@ -57,7 +57,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Học được cách dẫn dắt nhóm đi từ mở rộng (15 ý tưởng) đến thu hẹp bằng cây OST và bảng chấm điểm lập luận, không dùng bỏ phiếu cảm tính.
-- Nhận ra bài toán tốt không phải là bài toán dùng công nghệ phức tạp nhất, mà là bài toán có đối tượng chịu ảnh hưởng rõ ràng, đo được nút thắt và kiểm chứng được bằng hành vi thực tế.
+- Một bài toán tốt cần có người chịu ảnh hưởng rõ ràng, nút thắt đo được và kiểm chứng được bằng hành vi thật. Công nghệ phức tạp không phải tiêu chí..
 - Thấy rõ ranh giới giữa Workflow và Agent: không phải bài toán nào cũng cần AI tự hành động, phần lớn chỉ cần AI làm một bước và con người kiểm tra kết quả.
 
 ---
