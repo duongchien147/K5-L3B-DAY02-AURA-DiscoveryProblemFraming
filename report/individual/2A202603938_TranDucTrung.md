@@ -134,16 +134,16 @@ Tổng thời gian: khoảng 40 phút/lần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 Problem Card về đọc bài báo khoa học, đối chiếu kết quả huấn luyện AI và kiểm tra báo cáo trước khi nộp. Ưu tiên Card #1 về đọc và phân tích bài báo khoa học. | Đóng góp thêm các vấn đề có quy trình và thời gian cụ thể để nhóm thảo luận và so sánh. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Optuna và Ray Tune đã hỗ trợ tự động tìm kiếm và pruning, vậy AI sinh search space có nguy cơ tạo ra hyperparameter không hợp lệ không? | Giúp Trường xem xét lại vai trò của AI trong bài toán hypertuning và bổ sung bước kiểm tra kết quả bằng Rule. |
+| Nhận phản biện | Trường đặt câu hỏi về thời gian đọc paper 120 phút nếu chỉ cần sàng lọc bài báo. Thịnh đề xuất sử dụng checklist để kiểm tra báo cáo trước khi nộp. | Tôi làm rõ bước phân tích phương pháp và kiến trúc mất 90 phút; đồng thời giữ checklist trong phương án không dùng AI để kiểm tra báo cáo. |
+| Gom cluster / cây OST | Tham gia trao đổi, phân loại các Problem Card theo nhóm vấn đề và xem xét sự khác nhau giữa vấn đề thực tế với giải pháp được đề xuất. | Nhóm tổng hợp 15 Problem Card thành 3 cluster và xây dựng cây OST để xác định các cơ hội cải thiện. |
+| Chọn candidate problem | Tham gia thảo luận, so sánh các candidate dựa trên mức độ ảnh hưởng, khả năng kiểm chứng và tính khả thi. | Nhóm thống nhất chọn Candidate #2 về việc tìm lại tài liệu và quyết định bị phân tán trên Zalo, Google Drive và Google Sheets. |
+| Kiểm chứng / research | Phụ trách nghiên cứu Google Drive Search, Notion Wiki và NotebookLM; phối hợp với Trường tổng hợp, so sánh các công cụ hiện có. | Hoàn thiện bảng Research gồm 6 công cụ, làm rõ điểm mạnh, hạn chế và khoảng trống của các giải pháp đối với vấn đề nhóm lựa chọn. |
+| Quy trình nhóm | Tham gia xem xét quy trình hiện tại và quy trình cải tiến, đối chiếu các bước với khả năng hỗ trợ của những công cụ đã nghiên cứu. | Nhóm xác định quy trình hiện tại gồm 7 bước, mất khoảng 45 phút/lần theo ước tính, trong đó bước chờ phản hồi mất 15 phút. |
+| Problem Statement | Tham gia góp ý để mô tả vấn đề tập trung vào khó khăn tìm kiếm thông tin, thời gian xử lý và việc kiểm tra tài liệu nguồn. | Nhóm hoàn thiện Problem Statement từ v0 đến v1, làm rõ đối tượng, bottleneck, success metric và boundary. |
+| Mức can thiệp AI | Tham gia xem xét các phương án No AI, Rule, Workflow và Agent dựa trên kết quả Research và mức độ phức tạp của bài toán. | Nhóm lựa chọn Workflow, kết hợp Rule để tổ chức thông tin, AI hỗ trợ tìm kiếm và con người kiểm tra kết quả. |
+| Quyết định | Tham gia thảo luận về tính khả thi, rủi ro và phạm vi triển khai dựa trên các kết quả kiểm chứng và Research. | Nhóm thống nhất Go với pilot nhỏ trong 2 tuần, có tiêu chí đánh giá và điều kiện dừng nếu giải pháp không đạt hiệu quả mong muốn. |
 
 ---
 
@@ -165,25 +165,25 @@ Tổng thời gian: khoảng 40 phút/lần
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+Tôi nhận ra mỗi thành viên có những khó khăn khác nhau. Một vấn đề không cần quá phức tạp về kỹ thuật, quan trọng là có ảnh hưởng thực tế, nhiều người gặp phải và có thể kiểm chứng được.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Có. Ban đầu nhóm nghĩ đến việc xây dựng chatbot AI để tìm tài liệu. Sau khi phân tích cây OST, nhóm tập trung xác định bottleneck và xem xét các giải pháp không dùng AI trước.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Không. Tôi được hỏi tại sao đọc paper mất 120 phút nếu chỉ cần xem Abstract và Conclusion. Sau đó, tôi làm rõ rằng bước phân tích phương pháp và kiến trúc chiếm khoảng 90 phút, khác với việc chỉ đọc để sàng lọc tài liệu.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Có. Khảo sát cho thấy nhiều người gặp khó khăn khi tổng hợp thông tin, nhưng một số cho rằng chỉ cần template thống nhất. Điều này khiến tôi nhận ra không phải vấn đề nào cũng cần AI.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Khó nhất là xác định đúng bottleneck, đưa ra metric có cơ sở và không đưa giải pháp vào phần mô tả vấn đề quá sớm.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Tôi sẽ thu thập bằng chứng và đo thời gian thực tế sớm hơn. Đồng thời, tôi sẽ phản biện kỹ hơn về việc liệu Rule hoặc các công cụ sẵn có đã đủ giải quyết vấn đề chưa.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Nhóm chọn vấn đề khó tìm lại tài liệu và quyết định do thông tin phân tán trên Zalo, Drive và Sheets. Quy trình hiện tại gồm 7 bước, mất khoảng 45 phút/lần theo ước tính, trong đó 15 phút dành cho việc chờ phản hồi. Metric đặt ra là giảm thời gian tìm xuống dưới 5 phút/lần và tránh dùng nhầm tài liệu cũ. Boundary là AI chỉ đọc, tìm kiếm và trích dẫn nguồn, không tự sửa hoặc xóa tài liệu. Nhóm chọn Workflow, kết hợp Rule, AI và con người kiểm tra. Quyết định là Go với pilot 2 tuần. Nếu thời gian tìm vẫn trên 15 phút/lần hoặc hơn 50% câu hỏi không tìm được nguồn, nhóm sẽ dừng pilot.
 
 ---
 
